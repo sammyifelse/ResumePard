@@ -1,0 +1,66 @@
+
+--- Starting Resume Information Extraction Test ---
+
+--- Testing with dummy.pdf ---
+{
+    "name": "Docker Soft Skills Problem",
+    "contact_info": {
+        "email": "somarjeetthakuria@gmail.com",
+        "phone": null,
+        "linkedin": null,
+        "other_urls": []
+    },
+    "skills": [
+        "API Development",
+        "Adaptability",
+        "Analytics Dashboard",
+        "Backend Development",
+        "C++",
+        "Communication",
+        "Content Management System (CMS)",
+        "Cursor",
+        "Data Integration",
+        "Docker",
+        "Frontend Technologies",
+        "Git",
+        "JWT authentication",
+        "Langflow",
+        "Leadership",
+        "Linux",
+        "MongoDB",
+        "Node.js",
+        "Parrot OS",
+        "PostgreSQL",
+        "Python",
+        "Role-based access",
+        "SaaS",
+        "Tailwind",
+        "Teamwork",
+        "WindSurf"
+    ],
+    "education": [],
+    "experience": [],
+    "projects": [],
+    "leadership": []
+}
+Parsed data saved to parsed_dummy_pdf.json
+
+--- Testing with dummy.docx ---
+{
+    "name": null,
+    "contact_info": {
+        "email": null,
+        "phone": null,
+        "linkedin": null,
+        "other_urls": []
+    },
+    "skills": [],
+    "education": [],
+    "experience": [],
+    "projects": [],
+    "leadership": []
+}
+Parsed data saved to parsed_dummy_docx.json
+
+--- Information Extraction Testing Complete ---
+Ensure 'dummy.pdf' and 'dummy.docx' contain resume-like text for accurate testing.

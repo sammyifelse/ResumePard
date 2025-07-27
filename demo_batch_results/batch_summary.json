@@ -1,0 +1,620 @@
+{
+  "success": true,
+  "processing_type": "batch_resume_extraction",
+  "timestamp": "2025-07-21 19:54:14",
+  "total_files": 9,
+  "successfully_processed": 9,
+  "errors": 0,
+  "resumes": [
+    {
+      "file_name": "dummy.docx",
+      "candidate_name": null,
+      "contact_info": {
+        "email": null,
+        "phone": null,
+        "linkedin": null,
+        "github": null,
+        "other_urls": []
+      },
+      "skills_count": 0,
+      "skills": [],
+      "experience_count": 0,
+      "education_count": 0,
+      "projects_count": 0,
+      "full_data": {
+        "name": null,
+        "contact_info": {
+          "email": null,
+          "phone": null,
+          "linkedin": null,
+          "github": null,
+          "other_urls": []
+        },
+        "skills": [],
+        "education": [],
+        "experience": [],
+        "projects": [],
+        "leadership": []
+      }
+    },
+    {
+      "file_name": "dummy.pdf",
+      "candidate_name": "Rajat Shubhra D. Kumawat",
+      "contact_info": {
+        "email": "rajatshubhradkumawat@gmail.com",
+        "phone": "+91 8696 017 817",
+        "linkedin": "linkedin.com/in/nednrajat-kumawat",
+        "github": null,
+        "other_urls": []
+      },
+      "skills_count": 14,
+      "skills": [
+        "APIs",
+        "AWS",
+        "Algorithms",
+        "C++",
+        "Data Structures",
+        "Docker",
+        "GCP",
+        "Git",
+        "Java",
+        "JavaScript",
+        "MongoDB",
+        "Node.js",
+        "Python",
+        "React"
+      ],
+      "experience_count": 2,
+      "education_count": 3,
+      "projects_count": 5,
+      "full_data": {
+        "name": "Rajat Shubhra D. Kumawat",
+        "contact_info": {
+          "email": "rajatshubhradkumawat@gmail.com",
+          "phone": "+91 8696 017 817",
+          "linkedin": "linkedin.com/in/nednrajat-kumawat",
+          "github": null,
+          "other_urls": []
+        },
+        "skills": [
+          "APIs",
+          "AWS",
+          "Algorithms",
+          "C++",
+          "Data Structures",
+          "Docker",
+          "GCP",
+          "Git",
+          "Java",
+          "JavaScript",
+          "MongoDB",
+          "Node.js",
+          "Python",
+          "React"
+        ],
+        "education": [
+          "2025.• CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.• AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.• Secured 2nd place among 150 participants in Algo Arena , a college coding event.• Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.• Actively participated in over 100+ competitive programming contests.",
+          "Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027",
+          "• Kalinga Institute of Industrial Technology Bhubaneswar, India"
+        ],
+        "experience": [
+          "Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027",
+          "Organization & Architecture, DBMS, Operating Systems, AI, ML, Cloud Infrastructure Management Services• Rainbow School Jaipur, India\n◦Engineered a secure RESTful API using Node.js and Express.js, featuring token-based authentication (JWT)\n◦Engineered the service to perform concurrent, asynchronous calls to multiple external REST APIs using\nDeveloper Tools Git, Docker, AWS, Google Cloud Platform (GCP)"
+        ],
+        "projects": [
+          "All India Senior School Certificate Examinations 2023Projects:",
+          "• ArtisanConnect: Full-Stack E-commerce Platform : Developed a comprehensive MERN stack application to ◦Designed a responsive user interface with React, leveraging Redux for predictable state management of the ◦Implemented a seller dashboard with Chart.js to provide artisans with data visualizations of their sales ◦Implemented a Redis caching layer to persist recent search results, slashing average response times by an ◦Designed a flexible data access layer offering both a standard RESTful interface and a GraphQL endpoint,",
+          "Technologies: Python, FastAPI, GraphQL, Redis, Docker, Google Cloud Platform (GCP), REST APIs, GitSkills:",
+          "Developer Tools Git, Docker, AWS, Google Cloud Platform (GCP)",
+          "2025.• CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.• AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.• Secured 2nd place among 150 participants in Algo Arena , a college coding event.• Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.• Actively participated in over 100+ competitive programming contests."
+        ],
+        "leadership": []
+      }
+    },
+    {
+      "file_name": "final_improved.txt",
+      "candidate_name": null,
+      "contact_info": {
+        "email": "rajatshubhradkumawat@gmail.com",
+        "phone": "+91 8696 017 817",
+        "linkedin": "linkedin.com/in/nednrajat-kumawat",
+        "github": null,
+        "other_urls": []
+      },
+      "skills_count": 15,
+      "skills": [
+        "APIs",
+        "AWS",
+        "Algorithms",
+        "C++",
+        "Data Structures",
+        "Docker",
+        "GCP",
+        "Git",
+        "Java",
+        "JavaScript",
+        "Leadership",
+        "MongoDB",
+        "Node.js",
+        "Python",
+        "React"
+      ],
+      "experience_count": 1,
+      "education_count": 1,
+      "projects_count": 9,
+      "full_data": {
+        "name": null,
+        "contact_info": {
+          "email": "rajatshubhradkumawat@gmail.com",
+          "phone": "+91 8696 017 817",
+          "linkedin": "linkedin.com/in/nednrajat-kumawat",
+          "github": null,
+          "other_urls": []
+        },
+        "skills": [
+          "APIs",
+          "AWS",
+          "Algorithms",
+          "C++",
+          "Data Structures",
+          "Docker",
+          "GCP",
+          "Git",
+          "Java",
+          "JavaScript",
+          "Leadership",
+          "MongoDB",
+          "Node.js",
+          "Python",
+          "React"
+        ],
+        "education": [
+          "\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\",\n\"Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027\",\n\"\\u2022 Kalinga Institute of Industrial Technology Bhubaneswar, India\"\n\"Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027\",\n\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\""
+        ],
+        "experience": [
+          "\"Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027\",\n\"Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027\",\n\"Organization & Architecture, DBMS, Operating Systems, AI, ML, Cloud Infrastructure Management Services\\u2022 Rainbow School Jaipur, India\\n\\u25e6Engineered a secure RESTful API using Node.js and Express.js, featuring token-based authentication (JWT)\\n\\u25e6Engineered the service to perform concurrent, asynchronous calls to multiple external REST APIs using\\nDeveloper Tools Git, Docker, AWS, Google Cloud Platform (GCP)\"\n\"Developer Tools Git, Docker, AWS, Google Cloud Platform (GCP)\","
+        ],
+        "projects": [
+          "\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\",",
+          "\"Organization & Architecture, DBMS, Operating Systems, AI, ML, Cloud Infrastructure Management Services\\u2022 Rainbow School Jaipur, India\\n\\u25e6Engineered a secure RESTful API using Node.js and Express.js, featuring token-based authentication (JWT)\\n\\u25e6Engineered the service to perform concurrent, asynchronous calls to multiple external REST APIs using\\nDeveloper Tools Git, Docker, AWS, Google Cloud Platform (GCP)\"",
+          "\"projects\": [",
+          "\"All India Senior School Certificate Examinations 2023Projects:\",",
+          "\"\\u2022 ArtisanConnect: Full-Stack E-commerce Platform : Developed a comprehensive MERN stack application to \\u25e6Designed a responsive user interface with React, leveraging Redux for predictable state management of the \\u25e6Implemented a seller dashboard with Chart.js to provide artisans with data visualizations of their sales \\u25e6Implemented a Redis caching layer to persist recent search results, slashing average response times by an \\u25e6Designed a flexible data access layer offering both a standard RESTful interface and a GraphQL endpoint,\",",
+          "\"Technologies: Python, FastAPI, GraphQL, Redis, Docker, Google Cloud Platform (GCP), REST APIs, GitSkills:\",",
+          "\"Developer Tools Git, Docker, AWS, Google Cloud Platform (GCP)\",",
+          "\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\"",
+          "\"projects\": [],"
+        ],
+        "leadership": []
+      }
+    },
+    {
+      "file_name": "final_output.txt",
+      "candidate_name": null,
+      "contact_info": {
+        "email": "rajatshubhradkumawat@gmail.com",
+        "phone": null,
+        "linkedin": null,
+        "github": null,
+        "other_urls": []
+      },
+      "skills_count": 15,
+      "skills": [
+        "APIs",
+        "AWS",
+        "Algorithms",
+        "C++",
+        "Data Structures",
+        "Docker",
+        "GCP",
+        "Git",
+        "Java",
+        "JavaScript",
+        "Leadership",
+        "MongoDB",
+        "Node.js",
+        "Python",
+        "React"
+      ],
+      "experience_count": 1,
+      "education_count": 1,
+      "projects_count": 9,
+      "full_data": {
+        "name": null,
+        "contact_info": {
+          "email": "rajatshubhradkumawat@gmail.com",
+          "phone": null,
+          "linkedin": null,
+          "github": null,
+          "other_urls": []
+        },
+        "skills": [
+          "APIs",
+          "AWS",
+          "Algorithms",
+          "C++",
+          "Data Structures",
+          "Docker",
+          "GCP",
+          "Git",
+          "Java",
+          "JavaScript",
+          "Leadership",
+          "MongoDB",
+          "Node.js",
+          "Python",
+          "React"
+        ],
+        "education": [
+          "\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\",\n\"Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027\",\n\"\\u2022 Kalinga Institute of Industrial Technology Bhubaneswar, India\"\n\"Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027\",\n\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\""
+        ],
+        "experience": [
+          "\"Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027\",\n\"Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027\",\n\"Organization & Architecture, DBMS, Operating Systems, AI, ML, Cloud Infrastructure Management Services\\u2022 Rainbow School Jaipur, India\\n\\u25e6Engineered a secure RESTful API using Node.js and Express.js, featuring token-based authentication (JWT)\\n\\u25e6Engineered the service to perform concurrent, asynchronous calls to multiple external REST APIs using\\nDeveloper Tools Git, Docker, AWS, Google Cloud Platform (GCP)\"\n\"Developer Tools Git, Docker, AWS, Google Cloud Platform (GCP)\","
+        ],
+        "projects": [
+          "\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\",",
+          "\"Organization & Architecture, DBMS, Operating Systems, AI, ML, Cloud Infrastructure Management Services\\u2022 Rainbow School Jaipur, India\\n\\u25e6Engineered a secure RESTful API using Node.js and Express.js, featuring token-based authentication (JWT)\\n\\u25e6Engineered the service to perform concurrent, asynchronous calls to multiple external REST APIs using\\nDeveloper Tools Git, Docker, AWS, Google Cloud Platform (GCP)\"",
+          "\"projects\": [",
+          "\"All India Senior School Certificate Examinations 2023Projects:\",",
+          "\"\\u2022 ArtisanConnect: Full-Stack E-commerce Platform : Developed a comprehensive MERN stack application to \\u25e6Designed a responsive user interface with React, leveraging Redux for predictable state management of the \\u25e6Implemented a seller dashboard with Chart.js to provide artisans with data visualizations of their sales \\u25e6Implemented a Redis caching layer to persist recent search results, slashing average response times by an \\u25e6Designed a flexible data access layer offering both a standard RESTful interface and a GraphQL endpoint,\",",
+          "\"Technologies: Python, FastAPI, GraphQL, Redis, Docker, Google Cloud Platform (GCP), REST APIs, GitSkills:\",",
+          "\"Developer Tools Git, Docker, AWS, Google Cloud Platform (GCP)\",",
+          "\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\"",
+          "\"projects\": [],"
+        ],
+        "leadership": []
+      }
+    },
+    {
+      "file_name": "improved_output.txt",
+      "candidate_name": null,
+      "contact_info": {
+        "email": "rajatshubhradkumawat@gmail.com",
+        "phone": null,
+        "linkedin": null,
+        "github": null,
+        "other_urls": []
+      },
+      "skills_count": 15,
+      "skills": [
+        "APIs",
+        "AWS",
+        "Algorithms",
+        "C++",
+        "Data Structures",
+        "Docker",
+        "GCP",
+        "Git",
+        "Java",
+        "JavaScript",
+        "Leadership",
+        "MongoDB",
+        "Node.js",
+        "Python",
+        "React"
+      ],
+      "experience_count": 0,
+      "education_count": 0,
+      "projects_count": 2,
+      "full_data": {
+        "name": null,
+        "contact_info": {
+          "email": "rajatshubhradkumawat@gmail.com",
+          "phone": null,
+          "linkedin": null,
+          "github": null,
+          "other_urls": []
+        },
+        "skills": [
+          "APIs",
+          "AWS",
+          "Algorithms",
+          "C++",
+          "Data Structures",
+          "Docker",
+          "GCP",
+          "Git",
+          "Java",
+          "JavaScript",
+          "Leadership",
+          "MongoDB",
+          "Node.js",
+          "Python",
+          "React"
+        ],
+        "education": [],
+        "experience": [],
+        "projects": [
+          "\"projects\": [],",
+          "\"projects\": [],"
+        ],
+        "leadership": []
+      }
+    },
+    {
+      "file_name": "improved_urls.txt",
+      "candidate_name": null,
+      "contact_info": {
+        "email": "rajatshubhradkumawat@gmail.com",
+        "phone": null,
+        "linkedin": "linkedin.com/in/nednrajat-kumawat",
+        "github": null,
+        "other_urls": []
+      },
+      "skills_count": 15,
+      "skills": [
+        "APIs",
+        "AWS",
+        "Algorithms",
+        "C++",
+        "Data Structures",
+        "Docker",
+        "GCP",
+        "Git",
+        "Java",
+        "JavaScript",
+        "Leadership",
+        "MongoDB",
+        "Node.js",
+        "Python",
+        "React"
+      ],
+      "experience_count": 1,
+      "education_count": 1,
+      "projects_count": 9,
+      "full_data": {
+        "name": null,
+        "contact_info": {
+          "email": "rajatshubhradkumawat@gmail.com",
+          "phone": null,
+          "linkedin": "linkedin.com/in/nednrajat-kumawat",
+          "github": null,
+          "other_urls": []
+        },
+        "skills": [
+          "APIs",
+          "AWS",
+          "Algorithms",
+          "C++",
+          "Data Structures",
+          "Docker",
+          "GCP",
+          "Git",
+          "Java",
+          "JavaScript",
+          "Leadership",
+          "MongoDB",
+          "Node.js",
+          "Python",
+          "React"
+        ],
+        "education": [
+          "\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\",\n\"Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027\",\n\"\\u2022 Kalinga Institute of Industrial Technology Bhubaneswar, India\"\n\"Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027\",\n\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\""
+        ],
+        "experience": [
+          "\"Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027\",\n\"Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027\",\n\"Organization & Architecture, DBMS, Operating Systems, AI, ML, Cloud Infrastructure Management Services\\u2022 Rainbow School Jaipur, India\\n\\u25e6Engineered a secure RESTful API using Node.js and Express.js, featuring token-based authentication (JWT)\\n\\u25e6Engineered the service to perform concurrent, asynchronous calls to multiple external REST APIs using\\nDeveloper Tools Git, Docker, AWS, Google Cloud Platform (GCP)\"\n\"Developer Tools Git, Docker, AWS, Google Cloud Platform (GCP)\","
+        ],
+        "projects": [
+          "\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\",",
+          "\"Organization & Architecture, DBMS, Operating Systems, AI, ML, Cloud Infrastructure Management Services\\u2022 Rainbow School Jaipur, India\\n\\u25e6Engineered a secure RESTful API using Node.js and Express.js, featuring token-based authentication (JWT)\\n\\u25e6Engineered the service to perform concurrent, asynchronous calls to multiple external REST APIs using\\nDeveloper Tools Git, Docker, AWS, Google Cloud Platform (GCP)\"",
+          "\"projects\": [",
+          "\"All India Senior School Certificate Examinations 2023Projects:\",",
+          "\"\\u2022 ArtisanConnect: Full-Stack E-commerce Platform : Developed a comprehensive MERN stack application to \\u25e6Designed a responsive user interface with React, leveraging Redux for predictable state management of the \\u25e6Implemented a seller dashboard with Chart.js to provide artisans with data visualizations of their sales \\u25e6Implemented a Redis caching layer to persist recent search results, slashing average response times by an \\u25e6Designed a flexible data access layer offering both a standard RESTful interface and a GraphQL endpoint,\",",
+          "\"Technologies: Python, FastAPI, GraphQL, Redis, Docker, Google Cloud Platform (GCP), REST APIs, GitSkills:\",",
+          "\"Developer Tools Git, Docker, AWS, Google Cloud Platform (GCP)\",",
+          "\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\"",
+          "\"projects\": [],"
+        ],
+        "leadership": []
+      }
+    },
+    {
+      "file_name": "output.txt",
+      "candidate_name": null,
+      "contact_info": {
+        "email": null,
+        "phone": null,
+        "linkedin": null,
+        "github": null,
+        "other_urls": []
+      },
+      "skills_count": 0,
+      "skills": [],
+      "experience_count": 1,
+      "education_count": 0,
+      "projects_count": 0,
+      "full_data": {
+        "name": null,
+        "contact_info": {
+          "email": null,
+          "phone": null,
+          "linkedin": null,
+          "github": null,
+          "other_urls": []
+        },
+        "skills": [],
+        "education": [],
+        "experience": [
+          "re.error: unbalanced parenthesis at position 87"
+        ],
+        "projects": [],
+        "leadership": []
+      }
+    },
+    {
+      "file_name": "output2.txt",
+      "candidate_name": null,
+      "contact_info": {
+        "email": "somarjeetthakuria@gmail.com",
+        "phone": null,
+        "linkedin": null,
+        "github": null,
+        "other_urls": []
+      },
+      "skills_count": 26,
+      "skills": [
+        "API Development",
+        "Adaptability",
+        "Analytics Dashboard",
+        "Backend Development",
+        "C++",
+        "Communication",
+        "Content Management System (CMS)",
+        "Cursor",
+        "Data Integration",
+        "Docker",
+        "Frontend Technologies",
+        "Git",
+        "JWT authentication",
+        "Langflow",
+        "Leadership",
+        "Linux",
+        "MongoDB",
+        "Node.js",
+        "Parrot OS",
+        "PostgreSQL",
+        "Python",
+        "Role-based access",
+        "SaaS",
+        "Tailwind",
+        "Teamwork",
+        "WindSurf"
+      ],
+      "experience_count": 1,
+      "education_count": 0,
+      "projects_count": 2,
+      "full_data": {
+        "name": null,
+        "contact_info": {
+          "email": "somarjeetthakuria@gmail.com",
+          "phone": null,
+          "linkedin": null,
+          "github": null,
+          "other_urls": []
+        },
+        "skills": [
+          "API Development",
+          "Adaptability",
+          "Analytics Dashboard",
+          "Backend Development",
+          "C++",
+          "Communication",
+          "Content Management System (CMS)",
+          "Cursor",
+          "Data Integration",
+          "Docker",
+          "Frontend Technologies",
+          "Git",
+          "JWT authentication",
+          "Langflow",
+          "Leadership",
+          "Linux",
+          "MongoDB",
+          "Node.js",
+          "Parrot OS",
+          "PostgreSQL",
+          "Python",
+          "Role-based access",
+          "SaaS",
+          "Tailwind",
+          "Teamwork",
+          "WindSurf"
+        ],
+        "education": [],
+        "experience": [
+          "\"Role-based access\","
+        ],
+        "projects": [
+          "\"projects\": [],",
+          "\"projects\": [],"
+        ],
+        "leadership": []
+      }
+    },
+    {
+      "file_name": "requirements.txt",
+      "candidate_name": null,
+      "contact_info": {
+        "email": null,
+        "phone": null,
+        "linkedin": null,
+        "github": null,
+        "other_urls": []
+      },
+      "skills_count": 2,
+      "skills": [
+        "Natural Language Processing",
+        "Python"
+      ],
+      "experience_count": 0,
+      "education_count": 0,
+      "projects_count": 0,
+      "full_data": {
+        "name": null,
+        "contact_info": {
+          "email": null,
+          "phone": null,
+          "linkedin": null,
+          "github": null,
+          "other_urls": []
+        },
+        "skills": [
+          "Natural Language Processing",
+          "Python"
+        ],
+        "education": [],
+        "experience": [],
+        "projects": [],
+        "leadership": []
+      }
+    }
+  ],
+  "error_details": null,
+  "summary_stats": {
+    "average_skills_per_resume": 11.3,
+    "total_unique_skills": 35,
+    "most_common_skills": [
+      [
+        "Python",
+        7
+      ],
+      [
+        "C++",
+        6
+      ],
+      [
+        "Docker",
+        6
+      ],
+      [
+        "Git",
+        6
+      ],
+      [
+        "MongoDB",
+        6
+      ],
+      [
+        "Node.js",
+        6
+      ],
+      [
+        "APIs",
+        5
+      ],
+      [
+        "AWS",
+        5
+      ],
+      [
+        "Algorithms",
+        5
+      ],
+      [
+        "Data Structures",
+        5
+      ]
+    ],
+    "candidates_with_contact_info": 6
+  }
+}

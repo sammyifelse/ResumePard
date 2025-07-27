@@ -1,0 +1,72 @@
+Senior Python Developer - Remote Position
+
+Company: TechFlow Solutions
+Location: Remote (US timezone preferred)
+Salary: $120,000 - $160,000
+
+JOB DESCRIPTION:
+We are seeking an experienced Senior Python Developer to join our growing engineering team. 
+You will be responsible for building scalable backend systems and APIs that power our 
+data analytics platform.
+
+REQUIRED SKILLS:
+- 5+ years of professional Python development experience
+- Strong experience with Django or Flask frameworks
+- Proficiency in SQL databases (PostgreSQL, MySQL)
+- RESTful API design and development
+- Git version control and collaborative development
+- Experience with AWS cloud services
+- Knowledge of data structures and algorithms
+- Agile/Scrum development methodology
+
+PREFERRED SKILLS:
+- MongoDB or other NoSQL databases
+- Docker containerization
+- React.js or other modern frontend frameworks
+- Machine Learning libraries (scikit-learn, pandas)
+- Kubernetes orchestration
+- CI/CD pipeline experience
+- Redis caching
+- Microservices architecture
+
+EXPERIENCE REQUIREMENTS:
+- Minimum 5 years of software development experience
+- At least 3 years focused on Python development
+- Experience with high-traffic web applications
+- Previous work in a fast-paced startup or tech company
+- Leadership or mentoring experience preferred
+
+EDUCATION:
+- Bachelor's degree in Computer Science, Engineering, or related field
+- OR equivalent professional experience and demonstrated skills
+
+RESPONSIBILITIES:
+- Design and develop robust, scalable Python applications
+- Build and maintain RESTful APIs and microservices
+- Collaborate with frontend developers and data scientists
+- Participate in code reviews and technical architecture discussions
+- Optimize application performance and database queries
+- Mentor junior developers and contribute to team knowledge sharing
+- Work in an Agile environment with 2-week sprints
+
+COMPANY BENEFITS:
+- Competitive salary with equity options
+- Comprehensive health, dental, and vision insurance
+- 4 weeks PTO + holidays
+- $3,000 annual professional development budget
+- Remote work flexibility
+- Latest MacBook Pro and equipment
+- Flexible working hours (core hours 10 AM - 3 PM PST)
+
+ABOUT THE COMPANY:
+TechFlow Solutions is a fast-growing SaaS company specializing in business intelligence 
+and data analytics. Our platform helps mid-market companies make data-driven decisions 
+through intuitive dashboards and automated reporting. We process over 1 billion data 
+points daily and serve 500+ enterprise clients.
+
+We value:
+- Technical excellence and clean code
+- Collaborative team environment
+- Continuous learning and growth
+- Work-life balance
+- Innovation and creative problem-solving

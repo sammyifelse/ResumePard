@@ -1,0 +1,28 @@
+{
+    "name": "John Doe\n    john.doe@example.com",
+    "contact_info": {
+        "email": "john.doe@example.com",
+        "phone": null
+    },
+    "skills": [
+        "Machine Learning",
+        "Python",
+        "Agile",
+        "Django",
+        "SQL",
+        "Data Analysis",
+        "JavaScript",
+        "Git",
+        "React",
+        "Communication",
+        "Java"
+    ],
+    "education": [
+        "Education:\n    Master of Science in Computer Science | University of Example | 2017\n    Bachelor of Technology in Information Technology | College of Learning | 2015\n\n    Skills:"
+    ],
+    "experience": [
+        "John Doe\n    john.doe@example.com\n    (123) 456-7890\n\n    Summary:\n    Highly motivated Software Engineer with 5 years of experience in Python and Java development.",
+        "Experience:\n    Software Engineer | Tech Solutions Inc.",
+        "Junior Developer | Innovate Corp. | 2017 - 2019\n    - Assisted in the development of front-end components using JavaScript and React."
+    ]
+}

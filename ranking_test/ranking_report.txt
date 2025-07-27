@@ -1,0 +1,53 @@
+================================================================================
+📊 CANDIDATE RANKING REPORT
+================================================================================
+
+📋 Total Candidates Processed: 9
+📈 Average Score: 41.28%
+🏆 Highest Score: 60.94%
+
+🥇 TOP CANDIDATES:
+--------------------------------------------------
+1. None (final_improved.txt)
+   📊 Score: 60.94% (Good Match)
+   📧 Email: rajatshubhradkumawat@gmail.com
+   🔗 LinkedIn: linkedin.com/in/nednrajat-kumawat
+   💼 Skills: APIs, AWS, Algorithms, C++, Data Structures
+
+2. None (final_output.txt)
+   📊 Score: 60.94% (Good Match)
+   📧 Email: rajatshubhradkumawat@gmail.com
+   🔗 LinkedIn: None
+   💼 Skills: APIs, AWS, Algorithms, C++, Data Structures
+
+3. None (improved_urls.txt)
+   📊 Score: 60.94% (Good Match)
+   📧 Email: rajatshubhradkumawat@gmail.com
+   🔗 LinkedIn: linkedin.com/in/nednrajat-kumawat
+   💼 Skills: APIs, AWS, Algorithms, C++, Data Structures
+
+4. Rajat Shubhra D. Kumawat (dummy.pdf)
+   📊 Score: 57.96% (Good Match)
+   📧 Email: rajatshubhradkumawat@gmail.com
+   🔗 LinkedIn: linkedin.com/in/nednrajat-kumawat
+   💼 Skills: APIs, AWS, Algorithms, C++, Data Structures
+
+5. None (improved_output.txt)
+   📊 Score: 51.11% (Good Match)
+   📧 Email: rajatshubhradkumawat@gmail.com
+   🔗 LinkedIn: None
+   💼 Skills: APIs, AWS, Algorithms, C++, Data Structures
+
+🔍 SKILL GAP ANALYSIS:
+--------------------------------------------------
+• APIs: Missing in 44.4% of candidates
+• AWS: Missing in 44.4% of candidates
+• Algorithms: Missing in 44.4% of candidates
+• Data Structures: Missing in 44.4% of candidates
+• JavaScript: Missing in 44.4% of candidates
+
+💡 RECOMMENDATIONS:
+--------------------------------------------------
+• Consider expanding the candidate search or revising job requirements
+
+================================================================================

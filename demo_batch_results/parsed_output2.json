@@ -1,0 +1,47 @@
+{
+  "name": null,
+  "contact_info": {
+    "email": "somarjeetthakuria@gmail.com",
+    "phone": null,
+    "linkedin": null,
+    "github": null,
+    "other_urls": []
+  },
+  "skills": [
+    "API Development",
+    "Adaptability",
+    "Analytics Dashboard",
+    "Backend Development",
+    "C++",
+    "Communication",
+    "Content Management System (CMS)",
+    "Cursor",
+    "Data Integration",
+    "Docker",
+    "Frontend Technologies",
+    "Git",
+    "JWT authentication",
+    "Langflow",
+    "Leadership",
+    "Linux",
+    "MongoDB",
+    "Node.js",
+    "Parrot OS",
+    "PostgreSQL",
+    "Python",
+    "Role-based access",
+    "SaaS",
+    "Tailwind",
+    "Teamwork",
+    "WindSurf"
+  ],
+  "education": [],
+  "experience": [
+    "\"Role-based access\","
+  ],
+  "projects": [
+    "\"projects\": [],",
+    "\"projects\": [],"
+  ],
+  "leadership": []
+}

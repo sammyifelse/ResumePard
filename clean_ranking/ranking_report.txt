@@ -1,0 +1,43 @@
+================================================================================
+📊 CANDIDATE RANKING REPORT
+================================================================================
+
+📋 Total Candidates Processed: 3
+📈 Average Score: 39.67%
+🏆 Highest Score: 60.58%
+
+🥇 TOP CANDIDATES:
+--------------------------------------------------
+1. SARAH JOHNSON (resume_sarah_johnson.txt)
+   📊 Score: 60.58% (Moderate Match)
+   📧 Email: sarah.johnson@email.com
+   🔗 LinkedIn: linkedin.com/in/sarah-johnson-dev
+   💼 Skills: APIs, AWS, Agile, Analytics Dashboard, Azure
+
+2. Rajat Shubhra D. Kumawat (dummy.pdf)
+   📊 Score: 33.2% (Poor Match)
+   📧 Email: rajatshubhradkumawat@gmail.com
+   🔗 LinkedIn: linkedin.com/in/nednrajat-kumawat
+   💼 Skills: APIs, AWS, Algorithms, C++, Data Structures
+
+3. MIKE CHEN (resume_mike_chen.txt)
+   📊 Score: 25.22% (Poor Match)
+   📧 Email: mike.chen.dev@gmail.com
+   🔗 LinkedIn: linkedin.com/in/mikechen
+   💼 Skills: Agile, Communication, Frontend Technologies, Git, HTML
+
+🔍 SKILL GAP ANALYSIS:
+--------------------------------------------------
+• API Design: Missing in 100.0% of candidates
+• Leadership: Missing in 100.0% of candidates
+• Machine Learning: Missing in 100.0% of candidates
+• Pandas: Missing in 100.0% of candidates
+• SQL: Missing in 100.0% of candidates
+
+💡 RECOMMENDATIONS:
+--------------------------------------------------
+• Consider expanding the candidate search or revising job requirements
+• Consider providing additional training for selected candidates
+• Consider training in: API Design, Leadership, Machine Learning
+
+================================================================================

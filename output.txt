@@ -1,0 +1,20 @@
+
+--- Starting Resume Information Extraction Test ---
+
+--- Testing with dummy.pdf ---
+Traceback (most recent call last):
+  File "d:\ResumePard\info_extractor.py", line 321, in <module>
+    parsed_pdf_data = parse_resume(pdf_sample_path)
+  File "d:\ResumePard\info_extractor.py", line 285, in parse_resume
+    contact_info = extract_contact_info(normalized_text)
+  File "d:\ResumePard\info_extractor.py", line 73, in extract_contact_info
+    phone = re.findall(r"(?:(?:\\+?\\d{1,3}[-.\\s]?)?\\(?!\\d{2,4}\\)?\\d{2,4}\\)?[-.\\s]?\\d{3}[-.\\s]?\\d{4,6})\\b", text)
+  File "C:\Users\KIIT0001\AppData\Local\Programs\Python\Python39\lib\re.py", line 241, in findall
+    return _compile(pattern, flags).findall(string)
+  File "C:\Users\KIIT0001\AppData\Local\Programs\Python\Python39\lib\re.py", line 304, in _compile
+    p = sre_compile.compile(pattern, flags)
+  File "C:\Users\KIIT0001\AppData\Local\Programs\Python\Python39\lib\sre_compile.py", line 764, in compile
+    p = sre_parse.parse(p, flags)
+  File "C:\Users\KIIT0001\AppData\Local\Programs\Python\Python39\lib\sre_parse.py", line 962, in parse
+    raise source.error("unbalanced parenthesis")
+re.error: unbalanced parenthesis at position 87

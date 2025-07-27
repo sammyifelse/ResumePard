@@ -1,0 +1,17 @@
+{
+  "name": null,
+  "contact_info": {
+    "email": null,
+    "phone": null,
+    "linkedin": null,
+    "github": null,
+    "other_urls": []
+  },
+  "skills": [],
+  "education": [],
+  "experience": [
+    "re.error: unbalanced parenthesis at position 87"
+  ],
+  "projects": [],
+  "leadership": []
+}

@@ -1,0 +1,53 @@
+SARAH JOHNSON
+Senior Software Engineer
+
+Email: sarah.johnson@email.com
+Phone: +1-555-987-6543
+LinkedIn: linkedin.com/in/sarah-johnson-dev
+Location: San Francisco, CA
+
+SUMMARY
+Experienced Full-Stack Developer with 6+ years in web development and cloud technologies. 
+Expertise in Python, Django, and modern JavaScript frameworks. Strong background in API 
+development and database design.
+
+TECHNICAL SKILLS
+• Programming Languages: Python, JavaScript, TypeScript, Java, C#
+• Web Frameworks: Django, Flask, React, Vue.js, Express.js
+• Databases: PostgreSQL, MySQL, MongoDB, Redis
+• Cloud Platforms: AWS (EC2, S3, Lambda), Azure, Google Cloud Platform
+• DevOps: Docker, Kubernetes, Jenkins, CI/CD pipelines
+• Tools: Git, JIRA, Postman, VS Code
+
+PROFESSIONAL EXPERIENCE
+
+Senior Software Engineer | TechCorp Inc. | 2021 - Present
+• Led development of microservices architecture using Python and Django
+• Built RESTful APIs serving 10M+ requests daily
+• Implemented automated testing and CI/CD pipelines
+• Mentored junior developers and conducted code reviews
+• Optimized database queries resulting in 40% performance improvement
+
+Software Engineer | StartupXYZ | 2019 - 2021
+• Developed full-stack web applications using React and Node.js
+• Designed and implemented PostgreSQL database schemas
+• Integrated third-party APIs and payment gateways
+• Collaborated with cross-functional teams in Agile environment
+
+Junior Developer | WebSolutions Ltd. | 2018 - 2019
+• Built responsive web interfaces using HTML, CSS, and JavaScript
+• Maintained and updated legacy PHP applications
+• Participated in daily standups and sprint planning
+
+EDUCATION
+Bachelor of Science in Computer Science
+University of California, Berkeley | 2018
+
+PROJECTS
+• E-commerce Platform: Full-stack application with React frontend and Django backend
+• Data Analytics Dashboard: Real-time dashboard using Python, D3.js, and AWS
+• API Gateway: Microservices communication layer with authentication and rate limiting
+
+CERTIFICATIONS
+• AWS Certified Solutions Architect - Associate (2022)
+• Certified Kubernetes Administrator (2021)

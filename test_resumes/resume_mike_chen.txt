@@ -1,0 +1,61 @@
+MIKE CHEN
+Frontend Developer
+
+Contact Information:
+Email: mike.chen.dev@gmail.com
+Phone: (415) 123-4567
+GitHub: github.com/mikechen
+Portfolio: mikechen.dev
+
+ABOUT ME
+Creative Frontend Developer with 4 years of experience building modern web applications.
+Passionate about user experience and performance optimization. Strong skills in React
+ecosystem and modern JavaScript development.
+
+CORE SKILLS
+Frontend Technologies:
+- JavaScript (ES6+), TypeScript
+- React, Redux, Next.js
+- HTML5, CSS3, SASS/SCSS
+- Responsive Design, Mobile-First Development
+
+Tools & Platforms:
+- Webpack, Vite, Parcel
+- Jest, Cypress for testing
+- Git, GitHub Actions
+- Figma, Adobe Creative Suite
+- Node.js (basic backend knowledge)
+
+WORK EXPERIENCE
+
+Frontend Developer | Digital Agency Pro | 2022 - Present
+• Developed 15+ responsive websites using React and Next.js
+• Improved page load times by 60% through code optimization
+• Collaborated with designers to implement pixel-perfect UIs
+• Maintained component library used across multiple projects
+
+Junior Frontend Developer | Local Startup | 2020 - 2022
+• Built interactive web applications with vanilla JavaScript
+• Converted PSD designs to responsive HTML/CSS
+• Learned React and modern development practices
+• Worked on small team following Agile methodology
+
+Freelance Web Developer | Self-Employed | 2019 - 2020
+• Created websites for small businesses
+• Learned WordPress and basic PHP
+• Handled client communication and project management
+
+EDUCATION
+Associate Degree in Web Development
+Community College of San Francisco | 2019
+
+Bootcamp Graduate
+Full-Stack Web Development | General Assembly | 2019
+
+NOTABLE PROJECTS
+• Restaurant Finder App: React app with geolocation and Yelp API integration
+• Personal Portfolio: Next.js site with blog functionality and CMS integration
+• E-learning Platform: Frontend for online course platform with video streaming
+
+INTERESTS
+UI/UX Design, Photography, Gaming, Open Source Contributions

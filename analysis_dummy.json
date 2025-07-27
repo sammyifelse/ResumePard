@@ -1,0 +1,184 @@
+{
+  "analysis_type": "single_resume",
+  "resume_file": "dummy.pdf",
+  "candidate_name": "Rajat Shubhra D. Kumawat",
+  "timestamp": "2025-07-21 19:54:37",
+  "match_summary": {
+    "overall_score": 24.25,
+    "match_level": "Poor Match",
+    "key_strengths": [
+      "Has 1 required skills"
+    ],
+    "improvement_areas": [
+      "Consider learning these required skills: API Development, Django, SQL",
+      "Focus on developing more of the required technical skills",
+      "Gain more relevant work experience in the field",
+      "Highlight more technology-specific experience in your resume",
+      "Consider pursuing relevant educational qualifications"
+    ]
+  },
+  "detailed_analysis": {
+    "overall_score": 24.25,
+    "skill_analysis": {
+      "required_score": 0.25,
+      "preferred_score": 0,
+      "required_matches": [
+        "Python"
+      ],
+      "preferred_matches": [],
+      "missing_required": [
+        "API Development",
+        "Django",
+        "SQL"
+      ],
+      "missing_preferred": [],
+      "category_scores": {
+        "programming_languages": {
+          "score": 1.0,
+          "matches": [
+            "Python"
+          ],
+          "total_required": 1,
+          "total_matched": 1
+        },
+        "web_frameworks": {
+          "score": 0.0,
+          "matches": [],
+          "total_required": 1,
+          "total_matched": 0
+        },
+        "databases": {
+          "score": 0.0,
+          "matches": [],
+          "total_required": 1,
+          "total_matched": 0
+        }
+      },
+      "total_skill_score": 0.2
+    },
+    "experience_analysis": {
+      "resume_years": 0,
+      "meets_year_requirement": false,
+      "technology_matches": [
+        "Go"
+      ],
+      "score": 0.15
+    },
+    "education_analysis": {
+      "degree_match": false,
+      "field_match": false,
+      "matches": [],
+      "score": 1.0
+    },
+    "project_analysis": {
+      "score": 0.25,
+      "relevant_projects": [
+        "All India Senior School Certificate Examinations 2023Projects:",
+        "• ArtisanConnect: Full-Stack E-commerce Platform : Developed a comprehensive MERN stack application to ◦Designed a responsive user interface with React, leveraging Redux for predictable state management of the ◦Implemented a seller dashboard with Chart.js to provide artisans with data visualizations of their sales ◦Implemented a Redis caching layer to persist recent search results, slashing average response times by an ◦Designed a flexible data access layer offering both a standard RESTful interface and a GraphQL endpoint,",
+        "Technologies: Python, FastAPI, GraphQL, Redis, Docker, Google Cloud Platform (GCP), REST APIs, GitSkills:",
+        "Developer Tools Git, Docker, AWS, Google Cloud Platform (GCP)",
+        "2025.• CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.• AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.• Secured 2nd place among 150 participants in Algo Arena , a college coding event.• Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.• Actively participated in over 100+ competitive programming contests."
+      ],
+      "skill_mentions": [
+        "Python"
+      ]
+    },
+    "recommendations": [
+      "Consider learning these required skills: API Development, Django, SQL",
+      "Focus on developing more of the required technical skills",
+      "Gain more relevant work experience in the field",
+      "Highlight more technology-specific experience in your resume",
+      "Consider pursuing relevant educational qualifications"
+    ],
+    "match_level": "Poor Match",
+    "resume_data": {
+      "name": "Rajat Shubhra D. Kumawat",
+      "contact_info": {
+        "email": "rajatshubhradkumawat@gmail.com",
+        "phone": "+91 8696 017 817",
+        "linkedin": "linkedin.com/in/nednrajat-kumawat",
+        "github": null,
+        "other_urls": []
+      },
+      "skills": [
+        "APIs",
+        "AWS",
+        "Algorithms",
+        "C++",
+        "Data Structures",
+        "Docker",
+        "GCP",
+        "Git",
+        "Java",
+        "JavaScript",
+        "MongoDB",
+        "Node.js",
+        "Python",
+        "React"
+      ],
+      "education": [
+        "2025.• CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.• AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.• Secured 2nd place among 150 participants in Algo Arena , a college coding event.• Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.• Actively participated in over 100+ competitive programming contests.",
+        "Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027",
+        "• Kalinga Institute of Industrial Technology Bhubaneswar, India"
+      ],
+      "experience": [
+        "Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027",
+        "Organization & Architecture, DBMS, Operating Systems, AI, ML, Cloud Infrastructure Management Services• Rainbow School Jaipur, India\n◦Engineered a secure RESTful API using Node.js and Express.js, featuring token-based authentication (JWT)\n◦Engineered the service to perform concurrent, asynchronous calls to multiple external REST APIs using\nDeveloper Tools Git, Docker, AWS, Google Cloud Platform (GCP)"
+      ],
+      "projects": [
+        "All India Senior School Certificate Examinations 2023Projects:",
+        "• ArtisanConnect: Full-Stack E-commerce Platform : Developed a comprehensive MERN stack application to ◦Designed a responsive user interface with React, leveraging Redux for predictable state management of the ◦Implemented a seller dashboard with Chart.js to provide artisans with data visualizations of their sales ◦Implemented a Redis caching layer to persist recent search results, slashing average response times by an ◦Designed a flexible data access layer offering both a standard RESTful interface and a GraphQL endpoint,",
+        "Technologies: Python, FastAPI, GraphQL, Redis, Docker, Google Cloud Platform (GCP), REST APIs, GitSkills:",
+        "Developer Tools Git, Docker, AWS, Google Cloud Platform (GCP)",
+        "2025.• CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.• AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.• Secured 2nd place among 150 participants in Algo Arena , a college coding event.• Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.• Actively participated in over 100+ competitive programming contests."
+      ],
+      "leadership": []
+    },
+    "jd_data": {
+      "required_skills": [
+        "API Development",
+        "Django",
+        "Python",
+        "SQL"
+      ],
+      "preferred_skills": [],
+      "experience_requirements": {
+        "years_required": [
+          {
+            "min_years": 3,
+            "max_years": null,
+            "type": "general"
+          },
+          {
+            "min_years": 3,
+            "max_years": null,
+            "type": "general"
+          }
+        ],
+        "technology_experience": [
+          "Django",
+          "Go"
+        ]
+      },
+      "education_requirements": {
+        "degree_requirements": [],
+        "fields_of_study": []
+      },
+      "role_requirements": {
+        "job_titles": [],
+        "responsibilities": []
+      },
+      "company_info": {
+        "company_names": [],
+        "locations": []
+      },
+      "all_extracted_skills": [
+        "API Development",
+        "Django",
+        "Python",
+        "SQL"
+      ]
+    }
+  },
+  "success": true
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Rajat Shubhra D. Kumawat",
+  "contact_info": {
+    "email": "rajatshubhradkumawat@gmail.com",
+    "phone": "+91 8696 017 817",
+    "linkedin": "linkedin.com/in/nednrajat-kumawat",
+    "github": null,
+    "other_urls": []
+  },
+  "skills": [
+    "APIs",
+    "AWS",
+    "Algorithms",
+    "C++",
+    "Data Structures",
+    "Docker",
+    "GCP",
+    "Git",
+    "Java",
+    "JavaScript",
+    "MongoDB",
+    "Node.js",
+    "Python",
+    "React"
+  ],
+  "education": [
+    "2025.• CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.• AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.• Secured 2nd place among 150 participants in Algo Arena , a college coding event.• Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.• Actively participated in over 100+ competitive programming contests.",
+    "Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027",
+    "• Kalinga Institute of Industrial Technology Bhubaneswar, India"
+  ],
+  "experience": [
+    "Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027",
+    "Organization & Architecture, DBMS, Operating Systems, AI, ML, Cloud Infrastructure Management Services• Rainbow School Jaipur, India\n◦Engineered a secure RESTful API using Node.js and Express.js, featuring token-based authentication (JWT)\n◦Engineered the service to perform concurrent, asynchronous calls to multiple external REST APIs using\nDeveloper Tools Git, Docker, AWS, Google Cloud Platform (GCP)"
+  ],
+  "projects": [
+    "All India Senior School Certificate Examinations 2023Projects:",
+    "• ArtisanConnect: Full-Stack E-commerce Platform : Developed a comprehensive MERN stack application to ◦Designed a responsive user interface with React, leveraging Redux for predictable state management of the ◦Implemented a seller dashboard with Chart.js to provide artisans with data visualizations of their sales ◦Implemented a Redis caching layer to persist recent search results, slashing average response times by an ◦Designed a flexible data access layer offering both a standard RESTful interface and a GraphQL endpoint,",
+    "Technologies: Python, FastAPI, GraphQL, Redis, Docker, Google Cloud Platform (GCP), REST APIs, GitSkills:",
+    "Developer Tools Git, Docker, AWS, Google Cloud Platform (GCP)",
+    "2025.• CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.• AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.• Secured 2nd place among 150 participants in Algo Arena , a college coding event.• Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.• Actively participated in over 100+ competitive programming contests."
+  ],
+  "leadership": []
+}

@@ -1,0 +1,34 @@
+{
+  "name": null,
+  "contact_info": {
+    "email": "rajatshubhradkumawat@gmail.com",
+    "phone": null,
+    "linkedin": null,
+    "github": null,
+    "other_urls": []
+  },
+  "skills": [
+    "APIs",
+    "AWS",
+    "Algorithms",
+    "C++",
+    "Data Structures",
+    "Docker",
+    "GCP",
+    "Git",
+    "Java",
+    "JavaScript",
+    "Leadership",
+    "MongoDB",
+    "Node.js",
+    "Python",
+    "React"
+  ],
+  "education": [],
+  "experience": [],
+  "projects": [
+    "\"projects\": [],",
+    "\"projects\": [],"
+  ],
+  "leadership": []
+}

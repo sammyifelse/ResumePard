@@ -1,0 +1,2414 @@
+{
+  "success": true,
+  "total_candidates": 12,
+  "processing_errors": 0,
+  "job_description_summary": {
+    "required_skills_count": 23,
+    "preferred_skills_count": 0,
+    "top_required_skills": [
+      "API Design",
+      "APIs",
+      "AWS",
+      "Agile",
+      "Algorithms"
+    ],
+    "experience_requirements": {
+      "years_required": [
+        {
+          "min_years": 5,
+          "max_years": null,
+          "type": "general"
+        },
+        {
+          "min_years": 3,
+          "max_years": null,
+          "type": "general"
+        },
+        {
+          "min_years": 5,
+          "max_years": null,
+          "type": "general"
+        }
+      ],
+      "technology_experience": []
+    },
+    "education_requirements": {
+      "degree_requirements": [
+        "Bachelor's degree",
+        "Computer Science"
+      ],
+      "fields_of_study": [
+        "computer science",
+        "engineering",
+        "business"
+      ]
+    },
+    "role_info": {
+      "job_titles": [],
+      "responsibilities": [
+        "- Design and develop robust, scalable Python applications\n- Build and maintain RESTful APIs and microservices\n- Collaborate with frontend developers and data scientists\n- Participate in code reviews and technical architecture discussions\n- Optimize application performance and database queries\n- Mentor junior developers and contribute to team knowledge sharing\n- Work in an Agile environment with 2-week sprintsCOMPANY BENEFITS:\n- Competitive salary with equity options\n- Comprehensive health, dental, and vision insurance\n- 4 weeks PTO + holidays\n- $3,000 annual professional development budget\n- Remote work flexibility\n- Latest MacBook Pro and equipment\n- Flexible working hours (core hours 10 AM - 3 PM PST)ABOUT THE COMPANY:\nTechFlow Solutions is a fast-growing SaaS company specializing in business intelligence\nand data analytics",
+        "be responsible for building scalable backend systems and APIs that power our\ndata analytics platform"
+      ]
+    }
+  },
+  "ranking_analysis": {
+    "candidate_pool_size": 12,
+    "score_statistics": {
+      "highest_score": 60.58,
+      "lowest_score": 9.75,
+      "average_score": 29.41,
+      "score_range": 50.83
+    },
+    "match_level_distribution": {
+      "Moderate Match": 1,
+      "Fair Match": 1,
+      "Poor Match": 10
+    },
+    "top_candidates": [
+      {
+        "file_path": ".\\resume_sarah_johnson.txt",
+        "file_name": "resume_sarah_johnson.txt",
+        "candidate_name": "SARAH JOHNSON",
+        "email": "sarah.johnson@email.com",
+        "phone": "+1-555-987-6543",
+        "linkedin": "linkedin.com/in/sarah-johnson-dev",
+        "overall_match_score": 59.17,
+        "match_level": "Moderate Match",
+        "final_ranking_score": 60.58,
+        "skill_analysis": {
+          "required_score": 0.5652173913043478,
+          "preferred_score": 0,
+          "required_matches": [
+            "APIs",
+            "AWS",
+            "Agile",
+            "CI/CD",
+            "Django",
+            "Docker",
+            "Flask",
+            "Git",
+            "Kubernetes",
+            "Microservices",
+            "MongoDB",
+            "PostgreSQL",
+            "Python"
+          ],
+          "preferred_matches": [],
+          "missing_required": [
+            "API Design",
+            "Algorithms",
+            "Data Structures",
+            "Leadership",
+            "Machine Learning",
+            "Pandas",
+            "SQL",
+            "SaaS",
+            "Scikit-learn",
+            "Scrum"
+          ],
+          "missing_preferred": [],
+          "category_scores": {
+            "programming_languages": {
+              "score": 1.0,
+              "matches": [
+                "Python"
+              ],
+              "total_required": 1,
+              "total_matched": 1
+            },
+            "web_frameworks": {
+              "score": 1.0,
+              "matches": [
+                "Django",
+                "Flask"
+              ],
+              "total_required": 2,
+              "total_matched": 2
+            },
+            "databases": {
+              "score": 0.6666666666666666,
+              "matches": [
+                "MongoDB",
+                "PostgreSQL"
+              ],
+              "total_required": 3,
+              "total_matched": 2
+            },
+            "cloud_platforms": {
+              "score": 1.0,
+              "matches": [
+                "AWS"
+              ],
+              "total_required": 1,
+              "total_matched": 1
+            },
+            "devops_tools": {
+              "score": 1.0,
+              "matches": [
+                "CI/CD",
+                "Docker",
+                "Git",
+                "Kubernetes"
+              ],
+              "total_required": 4,
+              "total_matched": 4
+            },
+            "data_science": {
+              "score": 0.0,
+              "matches": [],
+              "total_required": 3,
+              "total_matched": 0
+            },
+            "soft_skills": {
+              "score": 0.0,
+              "matches": [],
+              "total_required": 1,
+              "total_matched": 0
+            }
+          },
+          "total_skill_score": 0.45217391304347826
+        },
+        "experience_analysis": {
+          "resume_years": 6,
+          "meets_year_requirement": true,
+          "technology_matches": [],
+          "score": 1.0
+        },
+        "education_analysis": {
+          "degree_match": true,
+          "field_match": true,
+          "matches": [
+            "computer science"
+          ],
+          "score": 1.0
+        },
+        "project_analysis": {
+          "score": 0.6086956521739131,
+          "relevant_projects": [
+            "• Programming Languages: Python, JavaScript, TypeScript, Java, C#• Web Frameworks: Django, Flask, React, Vue.js, Express.js• Databases: PostgreSQL, MySQL, MongoDB, Redis• Cloud Platforms: AWS (EC2, S3, Lambda), Azure, Google Cloud Platform• DevOps: Docker, Kubernetes, Jenkins, CI/CD pipelines• Tools: Git, JIRA, Postman, VS CodePROFESSIONAL",
+            "Senior Software Engineer | TechCorp Inc. | 2021 - Present• Led development of microservices architecture using Python and Django• Built RESTful APIs serving 10M+ requests daily• Implemented automated testing and CI/CD pipelines• Mentored junior developers and conducted code reviews• Optimized database queries resulting in 40% performance improvementSoftware Engineer | StartupXYZ | 2019 - 2021• Developed full-stack web applications using React and Node.js• Designed and implemented PostgreSQL database schemas• Integrated third-party APIs and payment gateways• Collaborated with cross-functional teams in Agile environmentJunior Developer | WebSolutions Ltd. | 2018 - 2019• Built responsive web interfaces using HTML, CSS, and JavaScript• Maintained and updated legacy PHP applications• Participated in daily standups and sprint planningEDUCATION:",
+            "University of California, Berkeley | 2018PROJECTS:",
+            "• E-commerce Platform: Full-stack application with React frontend and Django backend• Data Analytics Dashboard: Real-time dashboard using Python, D3.js, and AWS• API Gateway: Microservices communication layer with authentication and rate limitingCERTIFICATIONS:"
+          ],
+          "skill_mentions": [
+            "APIs",
+            "AWS",
+            "Agile",
+            "CI/CD",
+            "Django",
+            "Docker",
+            "Flask",
+            "Git",
+            "Kubernetes",
+            "Microservices",
+            "MongoDB",
+            "PostgreSQL",
+            "Python",
+            "SQL"
+          ]
+        },
+        "additional_scores": {
+          "skill_diversity": 0.8571428571428571,
+          "experience_quality": 0.45454545454545453,
+          "education_level": 0.6,
+          "project_relevance": 0.6086956521739131
+        },
+        "recommendations": [
+          "Consider learning these required skills: API Design, Algorithms, Data Structures",
+          "Focus on developing more of the required technical skills"
+        ],
+        "resume_summary": {
+          "total_skills": 24,
+          "top_skills": [
+            "APIs",
+            "AWS",
+            "Agile",
+            "Analytics Dashboard",
+            "Azure"
+          ],
+          "experience_entries": 1,
+          "education_entries": 2,
+          "project_entries": 4,
+          "has_contact_info": true
+        },
+        "rank": 1,
+        "percentile": 100.0
+      },
+      {
+        "file_path": ".\\job_description_python_dev.txt",
+        "file_name": "job_description_python_dev.txt",
+        "candidate_name": "Company: TechFlow Solutions",
+        "email": null,
+        "phone": null,
+        "linkedin": "linkedin.com/in/Scrum",
+        "overall_match_score": 49.5,
+        "match_level": "Fair Match",
+        "final_ranking_score": 47.57,
+        "skill_analysis": {
+          "required_score": 1.0,
+          "preferred_score": 0,
+          "required_matches": [
+            "API Design",
+            "APIs",
+            "AWS",
+            "Agile",
+            "Algorithms",
+            "CI/CD",
+            "Data Structures",
+            "Django",
+            "Docker",
+            "Flask",
+            "Git",
+            "Kubernetes",
+            "Leadership",
+            "Machine Learning",
+            "Microservices",
+            "MongoDB",
+            "Pandas",
+            "PostgreSQL",
+            "Python",
+            "SQL",
+            "SaaS",
+            "Scikit-learn",
+            "Scrum"
+          ],
+          "preferred_matches": [],
+          "missing_required": [],
+          "missing_preferred": [],
+          "category_scores": {
+            "programming_languages": {
+              "score": 1.0,
+              "matches": [
+                "Python"
+              ],
+              "total_required": 1,
+              "total_matched": 1
+            },
+            "web_frameworks": {
+              "score": 1.0,
+              "matches": [
+                "Django",
+                "Flask"
+              ],
+              "total_required": 2,
+              "total_matched": 2
+            },
+            "databases": {
+              "score": 1.0,
+              "matches": [
+                "MongoDB",
+                "PostgreSQL",
+                "SQL"
+              ],
+              "total_required": 3,
+              "total_matched": 3
+            },
+            "cloud_platforms": {
+              "score": 1.0,
+              "matches": [
+                "AWS"
+              ],
+              "total_required": 1,
+              "total_matched": 1
+            },
+            "devops_tools": {
+              "score": 1.0,
+              "matches": [
+                "CI/CD",
+                "Docker",
+                "Git",
+                "Kubernetes"
+              ],
+              "total_required": 4,
+              "total_matched": 4
+            },
+            "data_science": {
+              "score": 1.0,
+              "matches": [
+                "Machine Learning",
+                "Pandas",
+                "Scikit-learn"
+              ],
+              "total_required": 3,
+              "total_matched": 3
+            },
+            "soft_skills": {
+              "score": 1.0,
+              "matches": [
+                "Leadership"
+              ],
+              "total_required": 1,
+              "total_matched": 1
+            }
+          },
+          "total_skill_score": 0.8
+        },
+        "experience_analysis": {
+          "resume_years": 0,
+          "meets_year_requirement": false,
+          "technology_matches": [],
+          "score": 0.3
+        },
+        "education_analysis": {
+          "degree_match": true,
+          "field_match": true,
+          "matches": [
+            "computer science",
+            "engineering"
+          ],
+          "score": 1.0
+        },
+        "project_analysis": {
+          "score": 0.0,
+          "relevant_projects": [
+            "data analytics platform.REQUIRED",
+            "and data analytics. Our platform helps mid-market companies make data-driven decisions"
+          ],
+          "skill_mentions": []
+        },
+        "additional_scores": {
+          "skill_diversity": 1.0,
+          "experience_quality": 0.09090909090909091,
+          "education_level": 0.6,
+          "project_relevance": 0.0
+        },
+        "recommendations": [
+          "Gain more relevant work experience in the field"
+        ],
+        "resume_summary": {
+          "total_skills": 23,
+          "top_skills": [
+            "API Design",
+            "APIs",
+            "AWS",
+            "Agile",
+            "Algorithms"
+          ],
+          "experience_entries": 1,
+          "education_entries": 1,
+          "project_entries": 2,
+          "has_contact_info": false
+        },
+        "rank": 2,
+        "percentile": 91.7
+      },
+      {
+        "file_path": ".\\final_improved.txt",
+        "file_name": "final_improved.txt",
+        "candidate_name": null,
+        "email": "rajatshubhradkumawat@gmail.com",
+        "phone": "+91 8696 017 817",
+        "linkedin": "linkedin.com/in/nednrajat-kumawat",
+        "overall_match_score": 32.2,
+        "match_level": "Poor Match",
+        "final_ranking_score": 36.04,
+        "skill_analysis": {
+          "required_score": 0.391304347826087,
+          "preferred_score": 0,
+          "required_matches": [
+            "APIs",
+            "AWS",
+            "Algorithms",
+            "Data Structures",
+            "Docker",
+            "Git",
+            "Leadership",
+            "MongoDB",
+            "Python"
+          ],
+          "preferred_matches": [],
+          "missing_required": [
+            "API Design",
+            "Agile",
+            "CI/CD",
+            "Django",
+            "Flask",
+            "Kubernetes",
+            "Machine Learning",
+            "Microservices",
+            "Pandas",
+            "PostgreSQL",
+            "SQL",
+            "SaaS",
+            "Scikit-learn",
+            "Scrum"
+          ],
+          "missing_preferred": [],
+          "category_scores": {
+            "programming_languages": {
+              "score": 1.0,
+              "matches": [
+                "Python"
+              ],
+              "total_required": 1,
+              "total_matched": 1
+            },
+            "web_frameworks": {
+              "score": 0.0,
+              "matches": [],
+              "total_required": 2,
+              "total_matched": 0
+            },
+            "databases": {
+              "score": 0.3333333333333333,
+              "matches": [
+                "MongoDB"
+              ],
+              "total_required": 3,
+              "total_matched": 1
+            },
+            "cloud_platforms": {
+              "score": 1.0,
+              "matches": [
+                "AWS"
+              ],
+              "total_required": 1,
+              "total_matched": 1
+            },
+            "devops_tools": {
+              "score": 0.5,
+              "matches": [
+                "Docker",
+                "Git"
+              ],
+              "total_required": 4,
+              "total_matched": 2
+            },
+            "data_science": {
+              "score": 0.0,
+              "matches": [],
+              "total_required": 3,
+              "total_matched": 0
+            },
+            "soft_skills": {
+              "score": 1.0,
+              "matches": [
+                "Leadership"
+              ],
+              "total_required": 1,
+              "total_matched": 1
+            }
+          },
+          "total_skill_score": 0.3130434782608696
+        },
+        "experience_analysis": {
+          "resume_years": 0,
+          "meets_year_requirement": false,
+          "technology_matches": [],
+          "score": 0.3
+        },
+        "education_analysis": {
+          "degree_match": true,
+          "field_match": true,
+          "matches": [
+            "computer science",
+            "engineering"
+          ],
+          "score": 1.0
+        },
+        "project_analysis": {
+          "score": 0.21739130434782608,
+          "relevant_projects": [
+            "\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\",",
+            "\"Organization & Architecture, DBMS, Operating Systems, AI, ML, Cloud Infrastructure Management Services\\u2022 Rainbow School Jaipur, India\\n\\u25e6Engineered a secure RESTful API using Node.js and Express.js, featuring token-based authentication (JWT)\\n\\u25e6Engineered the service to perform concurrent, asynchronous calls to multiple external REST APIs using\\nDeveloper Tools Git, Docker, AWS, Google Cloud Platform (GCP)\"",
+            "\"projects\": [",
+            "\"All India Senior School Certificate Examinations 2023Projects:\",",
+            "\"\\u2022 ArtisanConnect: Full-Stack E-commerce Platform : Developed a comprehensive MERN stack application to \\u25e6Designed a responsive user interface with React, leveraging Redux for predictable state management of the \\u25e6Implemented a seller dashboard with Chart.js to provide artisans with data visualizations of their sales \\u25e6Implemented a Redis caching layer to persist recent search results, slashing average response times by an \\u25e6Designed a flexible data access layer offering both a standard RESTful interface and a GraphQL endpoint,\",",
+            "\"Technologies: Python, FastAPI, GraphQL, Redis, Docker, Google Cloud Platform (GCP), REST APIs, GitSkills:\",",
+            "\"Developer Tools Git, Docker, AWS, Google Cloud Platform (GCP)\",",
+            "\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\"",
+            "\"projects\": [],"
+          ],
+          "skill_mentions": [
+            "APIs",
+            "AWS",
+            "Docker",
+            "Git",
+            "Python"
+          ]
+        },
+        "additional_scores": {
+          "skill_diversity": 0.8571428571428571,
+          "experience_quality": 0.0,
+          "education_level": 0.6,
+          "project_relevance": 0.21739130434782608
+        },
+        "recommendations": [
+          "Consider learning these required skills: API Design, Agile, CI/CD",
+          "Focus on developing more of the required technical skills",
+          "Gain more relevant work experience in the field"
+        ],
+        "resume_summary": {
+          "total_skills": 15,
+          "top_skills": [
+            "APIs",
+            "AWS",
+            "Algorithms",
+            "C++",
+            "Data Structures"
+          ],
+          "experience_entries": 1,
+          "education_entries": 1,
+          "project_entries": 9,
+          "has_contact_info": true
+        },
+        "rank": 3,
+        "percentile": 83.3
+      }
+    ],
+    "skill_gap_analysis": {
+      "most_common_missing_skills": [
+        [
+          "API Design",
+          11
+        ],
+        [
+          "Machine Learning",
+          11
+        ],
+        [
+          "Pandas",
+          11
+        ],
+        [
+          "SQL",
+          11
+        ],
+        [
+          "Scikit-learn",
+          11
+        ]
+      ],
+      "overall_skill_coverage": {
+        "API Design": 8.3,
+        "APIs": 58.3,
+        "AWS": 58.3,
+        "Agile": 25.0,
+        "Algorithms": 50.0,
+        "CI/CD": 16.7,
+        "Data Structures": 50.0,
+        "Django": 16.7,
+        "Docker": 66.7,
+        "Flask": 16.7,
+        "Git": 75.0,
+        "Kubernetes": 16.7,
+        "Leadership": 50.0,
+        "Machine Learning": 8.3,
+        "Microservices": 16.7,
+        "MongoDB": 66.7,
+        "Pandas": 8.3,
+        "PostgreSQL": 25.0,
+        "Python": 75.0,
+        "SQL": 8.3,
+        "SaaS": 16.7,
+        "Scikit-learn": 8.3,
+        "Scrum": 8.3
+      }
+    },
+    "recommendations": [
+      "Consider expanding the candidate search or revising job requirements",
+      "Consider providing additional training for selected candidates",
+      "Consider training in: API Design, Agile, CI/CD"
+    ]
+  },
+  "candidates": [
+    {
+      "file_path": ".\\resume_sarah_johnson.txt",
+      "file_name": "resume_sarah_johnson.txt",
+      "candidate_name": "SARAH JOHNSON",
+      "email": "sarah.johnson@email.com",
+      "phone": "+1-555-987-6543",
+      "linkedin": "linkedin.com/in/sarah-johnson-dev",
+      "overall_match_score": 59.17,
+      "match_level": "Moderate Match",
+      "final_ranking_score": 60.58,
+      "skill_analysis": {
+        "required_score": 0.5652173913043478,
+        "preferred_score": 0,
+        "required_matches": [
+          "APIs",
+          "AWS",
+          "Agile",
+          "CI/CD",
+          "Django",
+          "Docker",
+          "Flask",
+          "Git",
+          "Kubernetes",
+          "Microservices",
+          "MongoDB",
+          "PostgreSQL",
+          "Python"
+        ],
+        "preferred_matches": [],
+        "missing_required": [
+          "API Design",
+          "Algorithms",
+          "Data Structures",
+          "Leadership",
+          "Machine Learning",
+          "Pandas",
+          "SQL",
+          "SaaS",
+          "Scikit-learn",
+          "Scrum"
+        ],
+        "missing_preferred": [],
+        "category_scores": {
+          "programming_languages": {
+            "score": 1.0,
+            "matches": [
+              "Python"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          },
+          "web_frameworks": {
+            "score": 1.0,
+            "matches": [
+              "Django",
+              "Flask"
+            ],
+            "total_required": 2,
+            "total_matched": 2
+          },
+          "databases": {
+            "score": 0.6666666666666666,
+            "matches": [
+              "MongoDB",
+              "PostgreSQL"
+            ],
+            "total_required": 3,
+            "total_matched": 2
+          },
+          "cloud_platforms": {
+            "score": 1.0,
+            "matches": [
+              "AWS"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          },
+          "devops_tools": {
+            "score": 1.0,
+            "matches": [
+              "CI/CD",
+              "Docker",
+              "Git",
+              "Kubernetes"
+            ],
+            "total_required": 4,
+            "total_matched": 4
+          },
+          "data_science": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 3,
+            "total_matched": 0
+          },
+          "soft_skills": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 1,
+            "total_matched": 0
+          }
+        },
+        "total_skill_score": 0.45217391304347826
+      },
+      "experience_analysis": {
+        "resume_years": 6,
+        "meets_year_requirement": true,
+        "technology_matches": [],
+        "score": 1.0
+      },
+      "education_analysis": {
+        "degree_match": true,
+        "field_match": true,
+        "matches": [
+          "computer science"
+        ],
+        "score": 1.0
+      },
+      "project_analysis": {
+        "score": 0.6086956521739131,
+        "relevant_projects": [
+          "• Programming Languages: Python, JavaScript, TypeScript, Java, C#• Web Frameworks: Django, Flask, React, Vue.js, Express.js• Databases: PostgreSQL, MySQL, MongoDB, Redis• Cloud Platforms: AWS (EC2, S3, Lambda), Azure, Google Cloud Platform• DevOps: Docker, Kubernetes, Jenkins, CI/CD pipelines• Tools: Git, JIRA, Postman, VS CodePROFESSIONAL",
+          "Senior Software Engineer | TechCorp Inc. | 2021 - Present• Led development of microservices architecture using Python and Django• Built RESTful APIs serving 10M+ requests daily• Implemented automated testing and CI/CD pipelines• Mentored junior developers and conducted code reviews• Optimized database queries resulting in 40% performance improvementSoftware Engineer | StartupXYZ | 2019 - 2021• Developed full-stack web applications using React and Node.js• Designed and implemented PostgreSQL database schemas• Integrated third-party APIs and payment gateways• Collaborated with cross-functional teams in Agile environmentJunior Developer | WebSolutions Ltd. | 2018 - 2019• Built responsive web interfaces using HTML, CSS, and JavaScript• Maintained and updated legacy PHP applications• Participated in daily standups and sprint planningEDUCATION:",
+          "University of California, Berkeley | 2018PROJECTS:",
+          "• E-commerce Platform: Full-stack application with React frontend and Django backend• Data Analytics Dashboard: Real-time dashboard using Python, D3.js, and AWS• API Gateway: Microservices communication layer with authentication and rate limitingCERTIFICATIONS:"
+        ],
+        "skill_mentions": [
+          "APIs",
+          "AWS",
+          "Agile",
+          "CI/CD",
+          "Django",
+          "Docker",
+          "Flask",
+          "Git",
+          "Kubernetes",
+          "Microservices",
+          "MongoDB",
+          "PostgreSQL",
+          "Python",
+          "SQL"
+        ]
+      },
+      "additional_scores": {
+        "skill_diversity": 0.8571428571428571,
+        "experience_quality": 0.45454545454545453,
+        "education_level": 0.6,
+        "project_relevance": 0.6086956521739131
+      },
+      "recommendations": [
+        "Consider learning these required skills: API Design, Algorithms, Data Structures",
+        "Focus on developing more of the required technical skills"
+      ],
+      "resume_summary": {
+        "total_skills": 24,
+        "top_skills": [
+          "APIs",
+          "AWS",
+          "Agile",
+          "Analytics Dashboard",
+          "Azure"
+        ],
+        "experience_entries": 1,
+        "education_entries": 2,
+        "project_entries": 4,
+        "has_contact_info": true
+      },
+      "rank": 1,
+      "percentile": 100.0
+    },
+    {
+      "file_path": ".\\job_description_python_dev.txt",
+      "file_name": "job_description_python_dev.txt",
+      "candidate_name": "Company: TechFlow Solutions",
+      "email": null,
+      "phone": null,
+      "linkedin": "linkedin.com/in/Scrum",
+      "overall_match_score": 49.5,
+      "match_level": "Fair Match",
+      "final_ranking_score": 47.57,
+      "skill_analysis": {
+        "required_score": 1.0,
+        "preferred_score": 0,
+        "required_matches": [
+          "API Design",
+          "APIs",
+          "AWS",
+          "Agile",
+          "Algorithms",
+          "CI/CD",
+          "Data Structures",
+          "Django",
+          "Docker",
+          "Flask",
+          "Git",
+          "Kubernetes",
+          "Leadership",
+          "Machine Learning",
+          "Microservices",
+          "MongoDB",
+          "Pandas",
+          "PostgreSQL",
+          "Python",
+          "SQL",
+          "SaaS",
+          "Scikit-learn",
+          "Scrum"
+        ],
+        "preferred_matches": [],
+        "missing_required": [],
+        "missing_preferred": [],
+        "category_scores": {
+          "programming_languages": {
+            "score": 1.0,
+            "matches": [
+              "Python"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          },
+          "web_frameworks": {
+            "score": 1.0,
+            "matches": [
+              "Django",
+              "Flask"
+            ],
+            "total_required": 2,
+            "total_matched": 2
+          },
+          "databases": {
+            "score": 1.0,
+            "matches": [
+              "MongoDB",
+              "PostgreSQL",
+              "SQL"
+            ],
+            "total_required": 3,
+            "total_matched": 3
+          },
+          "cloud_platforms": {
+            "score": 1.0,
+            "matches": [
+              "AWS"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          },
+          "devops_tools": {
+            "score": 1.0,
+            "matches": [
+              "CI/CD",
+              "Docker",
+              "Git",
+              "Kubernetes"
+            ],
+            "total_required": 4,
+            "total_matched": 4
+          },
+          "data_science": {
+            "score": 1.0,
+            "matches": [
+              "Machine Learning",
+              "Pandas",
+              "Scikit-learn"
+            ],
+            "total_required": 3,
+            "total_matched": 3
+          },
+          "soft_skills": {
+            "score": 1.0,
+            "matches": [
+              "Leadership"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          }
+        },
+        "total_skill_score": 0.8
+      },
+      "experience_analysis": {
+        "resume_years": 0,
+        "meets_year_requirement": false,
+        "technology_matches": [],
+        "score": 0.3
+      },
+      "education_analysis": {
+        "degree_match": true,
+        "field_match": true,
+        "matches": [
+          "computer science",
+          "engineering"
+        ],
+        "score": 1.0
+      },
+      "project_analysis": {
+        "score": 0.0,
+        "relevant_projects": [
+          "data analytics platform.REQUIRED",
+          "and data analytics. Our platform helps mid-market companies make data-driven decisions"
+        ],
+        "skill_mentions": []
+      },
+      "additional_scores": {
+        "skill_diversity": 1.0,
+        "experience_quality": 0.09090909090909091,
+        "education_level": 0.6,
+        "project_relevance": 0.0
+      },
+      "recommendations": [
+        "Gain more relevant work experience in the field"
+      ],
+      "resume_summary": {
+        "total_skills": 23,
+        "top_skills": [
+          "API Design",
+          "APIs",
+          "AWS",
+          "Agile",
+          "Algorithms"
+        ],
+        "experience_entries": 1,
+        "education_entries": 1,
+        "project_entries": 2,
+        "has_contact_info": false
+      },
+      "rank": 2,
+      "percentile": 91.7
+    },
+    {
+      "file_path": ".\\final_improved.txt",
+      "file_name": "final_improved.txt",
+      "candidate_name": null,
+      "email": "rajatshubhradkumawat@gmail.com",
+      "phone": "+91 8696 017 817",
+      "linkedin": "linkedin.com/in/nednrajat-kumawat",
+      "overall_match_score": 32.2,
+      "match_level": "Poor Match",
+      "final_ranking_score": 36.04,
+      "skill_analysis": {
+        "required_score": 0.391304347826087,
+        "preferred_score": 0,
+        "required_matches": [
+          "APIs",
+          "AWS",
+          "Algorithms",
+          "Data Structures",
+          "Docker",
+          "Git",
+          "Leadership",
+          "MongoDB",
+          "Python"
+        ],
+        "preferred_matches": [],
+        "missing_required": [
+          "API Design",
+          "Agile",
+          "CI/CD",
+          "Django",
+          "Flask",
+          "Kubernetes",
+          "Machine Learning",
+          "Microservices",
+          "Pandas",
+          "PostgreSQL",
+          "SQL",
+          "SaaS",
+          "Scikit-learn",
+          "Scrum"
+        ],
+        "missing_preferred": [],
+        "category_scores": {
+          "programming_languages": {
+            "score": 1.0,
+            "matches": [
+              "Python"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          },
+          "web_frameworks": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 2,
+            "total_matched": 0
+          },
+          "databases": {
+            "score": 0.3333333333333333,
+            "matches": [
+              "MongoDB"
+            ],
+            "total_required": 3,
+            "total_matched": 1
+          },
+          "cloud_platforms": {
+            "score": 1.0,
+            "matches": [
+              "AWS"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          },
+          "devops_tools": {
+            "score": 0.5,
+            "matches": [
+              "Docker",
+              "Git"
+            ],
+            "total_required": 4,
+            "total_matched": 2
+          },
+          "data_science": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 3,
+            "total_matched": 0
+          },
+          "soft_skills": {
+            "score": 1.0,
+            "matches": [
+              "Leadership"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          }
+        },
+        "total_skill_score": 0.3130434782608696
+      },
+      "experience_analysis": {
+        "resume_years": 0,
+        "meets_year_requirement": false,
+        "technology_matches": [],
+        "score": 0.3
+      },
+      "education_analysis": {
+        "degree_match": true,
+        "field_match": true,
+        "matches": [
+          "computer science",
+          "engineering"
+        ],
+        "score": 1.0
+      },
+      "project_analysis": {
+        "score": 0.21739130434782608,
+        "relevant_projects": [
+          "\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\",",
+          "\"Organization & Architecture, DBMS, Operating Systems, AI, ML, Cloud Infrastructure Management Services\\u2022 Rainbow School Jaipur, India\\n\\u25e6Engineered a secure RESTful API using Node.js and Express.js, featuring token-based authentication (JWT)\\n\\u25e6Engineered the service to perform concurrent, asynchronous calls to multiple external REST APIs using\\nDeveloper Tools Git, Docker, AWS, Google Cloud Platform (GCP)\"",
+          "\"projects\": [",
+          "\"All India Senior School Certificate Examinations 2023Projects:\",",
+          "\"\\u2022 ArtisanConnect: Full-Stack E-commerce Platform : Developed a comprehensive MERN stack application to \\u25e6Designed a responsive user interface with React, leveraging Redux for predictable state management of the \\u25e6Implemented a seller dashboard with Chart.js to provide artisans with data visualizations of their sales \\u25e6Implemented a Redis caching layer to persist recent search results, slashing average response times by an \\u25e6Designed a flexible data access layer offering both a standard RESTful interface and a GraphQL endpoint,\",",
+          "\"Technologies: Python, FastAPI, GraphQL, Redis, Docker, Google Cloud Platform (GCP), REST APIs, GitSkills:\",",
+          "\"Developer Tools Git, Docker, AWS, Google Cloud Platform (GCP)\",",
+          "\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\"",
+          "\"projects\": [],"
+        ],
+        "skill_mentions": [
+          "APIs",
+          "AWS",
+          "Docker",
+          "Git",
+          "Python"
+        ]
+      },
+      "additional_scores": {
+        "skill_diversity": 0.8571428571428571,
+        "experience_quality": 0.0,
+        "education_level": 0.6,
+        "project_relevance": 0.21739130434782608
+      },
+      "recommendations": [
+        "Consider learning these required skills: API Design, Agile, CI/CD",
+        "Focus on developing more of the required technical skills",
+        "Gain more relevant work experience in the field"
+      ],
+      "resume_summary": {
+        "total_skills": 15,
+        "top_skills": [
+          "APIs",
+          "AWS",
+          "Algorithms",
+          "C++",
+          "Data Structures"
+        ],
+        "experience_entries": 1,
+        "education_entries": 1,
+        "project_entries": 9,
+        "has_contact_info": true
+      },
+      "rank": 3,
+      "percentile": 83.3
+    },
+    {
+      "file_path": ".\\final_output.txt",
+      "file_name": "final_output.txt",
+      "candidate_name": null,
+      "email": "rajatshubhradkumawat@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "overall_match_score": 32.2,
+      "match_level": "Poor Match",
+      "final_ranking_score": 36.04,
+      "skill_analysis": {
+        "required_score": 0.391304347826087,
+        "preferred_score": 0,
+        "required_matches": [
+          "APIs",
+          "AWS",
+          "Algorithms",
+          "Data Structures",
+          "Docker",
+          "Git",
+          "Leadership",
+          "MongoDB",
+          "Python"
+        ],
+        "preferred_matches": [],
+        "missing_required": [
+          "API Design",
+          "Agile",
+          "CI/CD",
+          "Django",
+          "Flask",
+          "Kubernetes",
+          "Machine Learning",
+          "Microservices",
+          "Pandas",
+          "PostgreSQL",
+          "SQL",
+          "SaaS",
+          "Scikit-learn",
+          "Scrum"
+        ],
+        "missing_preferred": [],
+        "category_scores": {
+          "programming_languages": {
+            "score": 1.0,
+            "matches": [
+              "Python"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          },
+          "web_frameworks": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 2,
+            "total_matched": 0
+          },
+          "databases": {
+            "score": 0.3333333333333333,
+            "matches": [
+              "MongoDB"
+            ],
+            "total_required": 3,
+            "total_matched": 1
+          },
+          "cloud_platforms": {
+            "score": 1.0,
+            "matches": [
+              "AWS"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          },
+          "devops_tools": {
+            "score": 0.5,
+            "matches": [
+              "Docker",
+              "Git"
+            ],
+            "total_required": 4,
+            "total_matched": 2
+          },
+          "data_science": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 3,
+            "total_matched": 0
+          },
+          "soft_skills": {
+            "score": 1.0,
+            "matches": [
+              "Leadership"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          }
+        },
+        "total_skill_score": 0.3130434782608696
+      },
+      "experience_analysis": {
+        "resume_years": 0,
+        "meets_year_requirement": false,
+        "technology_matches": [],
+        "score": 0.3
+      },
+      "education_analysis": {
+        "degree_match": true,
+        "field_match": true,
+        "matches": [
+          "computer science",
+          "engineering"
+        ],
+        "score": 1.0
+      },
+      "project_analysis": {
+        "score": 0.21739130434782608,
+        "relevant_projects": [
+          "\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\",",
+          "\"Organization & Architecture, DBMS, Operating Systems, AI, ML, Cloud Infrastructure Management Services\\u2022 Rainbow School Jaipur, India\\n\\u25e6Engineered a secure RESTful API using Node.js and Express.js, featuring token-based authentication (JWT)\\n\\u25e6Engineered the service to perform concurrent, asynchronous calls to multiple external REST APIs using\\nDeveloper Tools Git, Docker, AWS, Google Cloud Platform (GCP)\"",
+          "\"projects\": [",
+          "\"All India Senior School Certificate Examinations 2023Projects:\",",
+          "\"\\u2022 ArtisanConnect: Full-Stack E-commerce Platform : Developed a comprehensive MERN stack application to \\u25e6Designed a responsive user interface with React, leveraging Redux for predictable state management of the \\u25e6Implemented a seller dashboard with Chart.js to provide artisans with data visualizations of their sales \\u25e6Implemented a Redis caching layer to persist recent search results, slashing average response times by an \\u25e6Designed a flexible data access layer offering both a standard RESTful interface and a GraphQL endpoint,\",",
+          "\"Technologies: Python, FastAPI, GraphQL, Redis, Docker, Google Cloud Platform (GCP), REST APIs, GitSkills:\",",
+          "\"Developer Tools Git, Docker, AWS, Google Cloud Platform (GCP)\",",
+          "\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\"",
+          "\"projects\": [],"
+        ],
+        "skill_mentions": [
+          "APIs",
+          "AWS",
+          "Docker",
+          "Git",
+          "Python"
+        ]
+      },
+      "additional_scores": {
+        "skill_diversity": 0.8571428571428571,
+        "experience_quality": 0.0,
+        "education_level": 0.6,
+        "project_relevance": 0.21739130434782608
+      },
+      "recommendations": [
+        "Consider learning these required skills: API Design, Agile, CI/CD",
+        "Focus on developing more of the required technical skills",
+        "Gain more relevant work experience in the field"
+      ],
+      "resume_summary": {
+        "total_skills": 15,
+        "top_skills": [
+          "APIs",
+          "AWS",
+          "Algorithms",
+          "C++",
+          "Data Structures"
+        ],
+        "experience_entries": 1,
+        "education_entries": 1,
+        "project_entries": 9,
+        "has_contact_info": true
+      },
+      "rank": 4,
+      "percentile": 75.0
+    },
+    {
+      "file_path": ".\\improved_urls.txt",
+      "file_name": "improved_urls.txt",
+      "candidate_name": null,
+      "email": "rajatshubhradkumawat@gmail.com",
+      "phone": null,
+      "linkedin": "linkedin.com/in/nednrajat-kumawat",
+      "overall_match_score": 32.2,
+      "match_level": "Poor Match",
+      "final_ranking_score": 36.04,
+      "skill_analysis": {
+        "required_score": 0.391304347826087,
+        "preferred_score": 0,
+        "required_matches": [
+          "APIs",
+          "AWS",
+          "Algorithms",
+          "Data Structures",
+          "Docker",
+          "Git",
+          "Leadership",
+          "MongoDB",
+          "Python"
+        ],
+        "preferred_matches": [],
+        "missing_required": [
+          "API Design",
+          "Agile",
+          "CI/CD",
+          "Django",
+          "Flask",
+          "Kubernetes",
+          "Machine Learning",
+          "Microservices",
+          "Pandas",
+          "PostgreSQL",
+          "SQL",
+          "SaaS",
+          "Scikit-learn",
+          "Scrum"
+        ],
+        "missing_preferred": [],
+        "category_scores": {
+          "programming_languages": {
+            "score": 1.0,
+            "matches": [
+              "Python"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          },
+          "web_frameworks": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 2,
+            "total_matched": 0
+          },
+          "databases": {
+            "score": 0.3333333333333333,
+            "matches": [
+              "MongoDB"
+            ],
+            "total_required": 3,
+            "total_matched": 1
+          },
+          "cloud_platforms": {
+            "score": 1.0,
+            "matches": [
+              "AWS"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          },
+          "devops_tools": {
+            "score": 0.5,
+            "matches": [
+              "Docker",
+              "Git"
+            ],
+            "total_required": 4,
+            "total_matched": 2
+          },
+          "data_science": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 3,
+            "total_matched": 0
+          },
+          "soft_skills": {
+            "score": 1.0,
+            "matches": [
+              "Leadership"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          }
+        },
+        "total_skill_score": 0.3130434782608696
+      },
+      "experience_analysis": {
+        "resume_years": 0,
+        "meets_year_requirement": false,
+        "technology_matches": [],
+        "score": 0.3
+      },
+      "education_analysis": {
+        "degree_match": true,
+        "field_match": true,
+        "matches": [
+          "computer science",
+          "engineering"
+        ],
+        "score": 1.0
+      },
+      "project_analysis": {
+        "score": 0.21739130434782608,
+        "relevant_projects": [
+          "\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\",",
+          "\"Organization & Architecture, DBMS, Operating Systems, AI, ML, Cloud Infrastructure Management Services\\u2022 Rainbow School Jaipur, India\\n\\u25e6Engineered a secure RESTful API using Node.js and Express.js, featuring token-based authentication (JWT)\\n\\u25e6Engineered the service to perform concurrent, asynchronous calls to multiple external REST APIs using\\nDeveloper Tools Git, Docker, AWS, Google Cloud Platform (GCP)\"",
+          "\"projects\": [",
+          "\"All India Senior School Certificate Examinations 2023Projects:\",",
+          "\"\\u2022 ArtisanConnect: Full-Stack E-commerce Platform : Developed a comprehensive MERN stack application to \\u25e6Designed a responsive user interface with React, leveraging Redux for predictable state management of the \\u25e6Implemented a seller dashboard with Chart.js to provide artisans with data visualizations of their sales \\u25e6Implemented a Redis caching layer to persist recent search results, slashing average response times by an \\u25e6Designed a flexible data access layer offering both a standard RESTful interface and a GraphQL endpoint,\",",
+          "\"Technologies: Python, FastAPI, GraphQL, Redis, Docker, Google Cloud Platform (GCP), REST APIs, GitSkills:\",",
+          "\"Developer Tools Git, Docker, AWS, Google Cloud Platform (GCP)\",",
+          "\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\"",
+          "\"projects\": [],"
+        ],
+        "skill_mentions": [
+          "APIs",
+          "AWS",
+          "Docker",
+          "Git",
+          "Python"
+        ]
+      },
+      "additional_scores": {
+        "skill_diversity": 0.8571428571428571,
+        "experience_quality": 0.0,
+        "education_level": 0.6,
+        "project_relevance": 0.21739130434782608
+      },
+      "recommendations": [
+        "Consider learning these required skills: API Design, Agile, CI/CD",
+        "Focus on developing more of the required technical skills",
+        "Gain more relevant work experience in the field"
+      ],
+      "resume_summary": {
+        "total_skills": 15,
+        "top_skills": [
+          "APIs",
+          "AWS",
+          "Algorithms",
+          "C++",
+          "Data Structures"
+        ],
+        "experience_entries": 1,
+        "education_entries": 1,
+        "project_entries": 9,
+        "has_contact_info": true
+      },
+      "rank": 5,
+      "percentile": 66.7
+    },
+    {
+      "file_path": ".\\dummy.pdf",
+      "file_name": "dummy.pdf",
+      "candidate_name": "Rajat Shubhra D. Kumawat",
+      "email": "rajatshubhradkumawat@gmail.com",
+      "phone": "+91 8696 017 817",
+      "linkedin": "linkedin.com/in/nednrajat-kumawat",
+      "overall_match_score": 30.8,
+      "match_level": "Poor Match",
+      "final_ranking_score": 33.2,
+      "skill_analysis": {
+        "required_score": 0.34782608695652173,
+        "preferred_score": 0,
+        "required_matches": [
+          "APIs",
+          "AWS",
+          "Algorithms",
+          "Data Structures",
+          "Docker",
+          "Git",
+          "MongoDB",
+          "Python"
+        ],
+        "preferred_matches": [],
+        "missing_required": [
+          "API Design",
+          "Agile",
+          "CI/CD",
+          "Django",
+          "Flask",
+          "Kubernetes",
+          "Leadership",
+          "Machine Learning",
+          "Microservices",
+          "Pandas",
+          "PostgreSQL",
+          "SQL",
+          "SaaS",
+          "Scikit-learn",
+          "Scrum"
+        ],
+        "missing_preferred": [],
+        "category_scores": {
+          "programming_languages": {
+            "score": 1.0,
+            "matches": [
+              "Python"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          },
+          "web_frameworks": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 2,
+            "total_matched": 0
+          },
+          "databases": {
+            "score": 0.3333333333333333,
+            "matches": [
+              "MongoDB"
+            ],
+            "total_required": 3,
+            "total_matched": 1
+          },
+          "cloud_platforms": {
+            "score": 1.0,
+            "matches": [
+              "AWS"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          },
+          "devops_tools": {
+            "score": 0.5,
+            "matches": [
+              "Docker",
+              "Git"
+            ],
+            "total_required": 4,
+            "total_matched": 2
+          },
+          "data_science": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 3,
+            "total_matched": 0
+          },
+          "soft_skills": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 1,
+            "total_matched": 0
+          }
+        },
+        "total_skill_score": 0.2782608695652174
+      },
+      "experience_analysis": {
+        "resume_years": 0,
+        "meets_year_requirement": false,
+        "technology_matches": [],
+        "score": 0.3
+      },
+      "education_analysis": {
+        "degree_match": true,
+        "field_match": true,
+        "matches": [
+          "computer science",
+          "engineering"
+        ],
+        "score": 1.0
+      },
+      "project_analysis": {
+        "score": 0.21739130434782608,
+        "relevant_projects": [
+          "All India Senior School Certificate Examinations 2023Projects:",
+          "• ArtisanConnect: Full-Stack E-commerce Platform : Developed a comprehensive MERN stack application to ◦Designed a responsive user interface with React, leveraging Redux for predictable state management of the ◦Implemented a seller dashboard with Chart.js to provide artisans with data visualizations of their sales ◦Implemented a Redis caching layer to persist recent search results, slashing average response times by an ◦Designed a flexible data access layer offering both a standard RESTful interface and a GraphQL endpoint,",
+          "Technologies: Python, FastAPI, GraphQL, Redis, Docker, Google Cloud Platform (GCP), REST APIs, GitSkills:",
+          "Developer Tools Git, Docker, AWS, Google Cloud Platform (GCP)",
+          "2025.• CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.• AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.• Secured 2nd place among 150 participants in Algo Arena , a college coding event.• Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.• Actively participated in over 100+ competitive programming contests."
+        ],
+        "skill_mentions": [
+          "APIs",
+          "AWS",
+          "Docker",
+          "Git",
+          "Python"
+        ]
+      },
+      "additional_scores": {
+        "skill_diversity": 0.7142857142857143,
+        "experience_quality": 0.0,
+        "education_level": 0.6,
+        "project_relevance": 0.21739130434782608
+      },
+      "recommendations": [
+        "Consider learning these required skills: API Design, Agile, CI/CD",
+        "Focus on developing more of the required technical skills",
+        "Gain more relevant work experience in the field"
+      ],
+      "resume_summary": {
+        "total_skills": 14,
+        "top_skills": [
+          "APIs",
+          "AWS",
+          "Algorithms",
+          "C++",
+          "Data Structures"
+        ],
+        "experience_entries": 2,
+        "education_entries": 3,
+        "project_entries": 5,
+        "has_contact_info": true
+      },
+      "rank": 6,
+      "percentile": 58.3
+    },
+    {
+      "file_path": ".\\resume_mike_chen.txt",
+      "file_name": "resume_mike_chen.txt",
+      "candidate_name": "MIKE CHEN",
+      "email": "mike.chen.dev@gmail.com",
+      "phone": "(415) 123-4567",
+      "linkedin": "linkedin.com/in/mikechen",
+      "overall_match_score": 17.15,
+      "match_level": "Poor Match",
+      "final_ranking_score": 25.22,
+      "skill_analysis": {
+        "required_score": 0.08695652173913043,
+        "preferred_score": 0,
+        "required_matches": [
+          "Agile",
+          "Git"
+        ],
+        "preferred_matches": [],
+        "missing_required": [
+          "API Design",
+          "APIs",
+          "AWS",
+          "Algorithms",
+          "CI/CD",
+          "Data Structures",
+          "Django",
+          "Docker",
+          "Flask",
+          "Kubernetes",
+          "Leadership",
+          "Machine Learning",
+          "Microservices",
+          "MongoDB",
+          "Pandas",
+          "PostgreSQL",
+          "Python",
+          "SQL",
+          "SaaS",
+          "Scikit-learn",
+          "Scrum"
+        ],
+        "missing_preferred": [],
+        "category_scores": {
+          "programming_languages": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 1,
+            "total_matched": 0
+          },
+          "web_frameworks": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 2,
+            "total_matched": 0
+          },
+          "databases": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 3,
+            "total_matched": 0
+          },
+          "cloud_platforms": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 1,
+            "total_matched": 0
+          },
+          "devops_tools": {
+            "score": 0.25,
+            "matches": [
+              "Git"
+            ],
+            "total_required": 4,
+            "total_matched": 1
+          },
+          "data_science": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 3,
+            "total_matched": 0
+          },
+          "soft_skills": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 1,
+            "total_matched": 0
+          }
+        },
+        "total_skill_score": 0.06956521739130435
+      },
+      "experience_analysis": {
+        "resume_years": 0,
+        "meets_year_requirement": false,
+        "technology_matches": [],
+        "score": 0.3
+      },
+      "education_analysis": {
+        "degree_match": true,
+        "field_match": false,
+        "matches": [],
+        "score": 0.6
+      },
+      "project_analysis": {
+        "score": 0.08695652173913043,
+        "relevant_projects": [
+          "- Responsive Design, Mobile-First DevelopmentTools & Platforms: Frontend Developer | Digital Agency Pro | 2022 - Present• Developed 15+ responsive websites using React and Next.js• Improved page load times by 60% through code optimization• Collaborated with designers to implement pixel-perfect UIs• Maintained component library used across multiple",
+          "Junior Frontend Developer | Local Startup | 2020 - 2022• Built interactive web applications with vanilla JavaScript• Converted PSD designs to responsive HTML/CSS• Learned React and modern development practices• Worked on small team following Agile methodologyFreelance Web Developer | Self-Employed | 2019 - 2020• Created websites for small businesses• Learned WordPress and basic PHP• Handled client communication and project managementEDUCATION:",
+          "• Restaurant Finder App: React app with geolocation and Yelp API integration• Personal Portfolio: Next.js site with blog functionality and CMS integration• E-learning Platform: Frontend for online course platform with video streamingINTERESTS"
+        ],
+        "skill_mentions": [
+          "Agile",
+          "Git"
+        ]
+      },
+      "additional_scores": {
+        "skill_diversity": 0.5714285714285714,
+        "experience_quality": 0.18181818181818182,
+        "education_level": 0.4,
+        "project_relevance": 0.08695652173913043
+      },
+      "recommendations": [
+        "Consider learning these required skills: API Design, APIs, AWS",
+        "Focus on developing more of the required technical skills",
+        "Gain more relevant work experience in the field"
+      ],
+      "resume_summary": {
+        "total_skills": 9,
+        "top_skills": [
+          "Agile",
+          "Communication",
+          "Frontend Technologies",
+          "Git",
+          "HTML"
+        ],
+        "experience_entries": 1,
+        "education_entries": 1,
+        "project_entries": 3,
+        "has_contact_info": true
+      },
+      "rank": 7,
+      "percentile": 50.0
+    },
+    {
+      "file_path": ".\\improved_output.txt",
+      "file_name": "improved_output.txt",
+      "candidate_name": null,
+      "email": "rajatshubhradkumawat@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "overall_match_score": 20.02,
+      "match_level": "Poor Match",
+      "final_ranking_score": 24.87,
+      "skill_analysis": {
+        "required_score": 0.391304347826087,
+        "preferred_score": 0,
+        "required_matches": [
+          "APIs",
+          "AWS",
+          "Algorithms",
+          "Data Structures",
+          "Docker",
+          "Git",
+          "Leadership",
+          "MongoDB",
+          "Python"
+        ],
+        "preferred_matches": [],
+        "missing_required": [
+          "API Design",
+          "Agile",
+          "CI/CD",
+          "Django",
+          "Flask",
+          "Kubernetes",
+          "Machine Learning",
+          "Microservices",
+          "Pandas",
+          "PostgreSQL",
+          "SQL",
+          "SaaS",
+          "Scikit-learn",
+          "Scrum"
+        ],
+        "missing_preferred": [],
+        "category_scores": {
+          "programming_languages": {
+            "score": 1.0,
+            "matches": [
+              "Python"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          },
+          "web_frameworks": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 2,
+            "total_matched": 0
+          },
+          "databases": {
+            "score": 0.3333333333333333,
+            "matches": [
+              "MongoDB"
+            ],
+            "total_required": 3,
+            "total_matched": 1
+          },
+          "cloud_platforms": {
+            "score": 1.0,
+            "matches": [
+              "AWS"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          },
+          "devops_tools": {
+            "score": 0.5,
+            "matches": [
+              "Docker",
+              "Git"
+            ],
+            "total_required": 4,
+            "total_matched": 2
+          },
+          "data_science": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 3,
+            "total_matched": 0
+          },
+          "soft_skills": {
+            "score": 1.0,
+            "matches": [
+              "Leadership"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          }
+        },
+        "total_skill_score": 0.3130434782608696
+      },
+      "experience_analysis": {
+        "resume_years": 0,
+        "meets_year_requirement": false,
+        "technology_matches": [],
+        "score": 0.3
+      },
+      "education_analysis": {
+        "degree_match": false,
+        "field_match": false,
+        "matches": [],
+        "score": 0
+      },
+      "project_analysis": {
+        "score": 0.0,
+        "relevant_projects": [
+          "\"projects\": [],",
+          "\"projects\": [],"
+        ],
+        "skill_mentions": []
+      },
+      "additional_scores": {
+        "skill_diversity": 0.8571428571428571,
+        "experience_quality": 0.0,
+        "education_level": 0.2,
+        "project_relevance": 0.0
+      },
+      "recommendations": [
+        "Consider learning these required skills: API Design, Agile, CI/CD",
+        "Focus on developing more of the required technical skills",
+        "Gain more relevant work experience in the field",
+        "Consider pursuing relevant educational qualifications"
+      ],
+      "resume_summary": {
+        "total_skills": 15,
+        "top_skills": [
+          "APIs",
+          "AWS",
+          "Algorithms",
+          "C++",
+          "Data Structures"
+        ],
+        "experience_entries": 0,
+        "education_entries": 0,
+        "project_entries": 2,
+        "has_contact_info": true
+      },
+      "rank": 8,
+      "percentile": 41.7
+    },
+    {
+      "file_path": ".\\output2.txt",
+      "file_name": "output2.txt",
+      "candidate_name": null,
+      "email": "somarjeetthakuria@gmail.com",
+      "phone": null,
+      "linkedin": null,
+      "overall_match_score": 17.24,
+      "match_level": "Poor Match",
+      "final_ranking_score": 21.33,
+      "skill_analysis": {
+        "required_score": 0.30434782608695654,
+        "preferred_score": 0,
+        "required_matches": [
+          "Docker",
+          "Git",
+          "Leadership",
+          "MongoDB",
+          "PostgreSQL",
+          "Python",
+          "SaaS"
+        ],
+        "preferred_matches": [],
+        "missing_required": [
+          "API Design",
+          "APIs",
+          "AWS",
+          "Agile",
+          "Algorithms",
+          "CI/CD",
+          "Data Structures",
+          "Django",
+          "Flask",
+          "Kubernetes",
+          "Machine Learning",
+          "Microservices",
+          "Pandas",
+          "SQL",
+          "Scikit-learn",
+          "Scrum"
+        ],
+        "missing_preferred": [],
+        "category_scores": {
+          "programming_languages": {
+            "score": 1.0,
+            "matches": [
+              "Python"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          },
+          "web_frameworks": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 2,
+            "total_matched": 0
+          },
+          "databases": {
+            "score": 0.6666666666666666,
+            "matches": [
+              "MongoDB",
+              "PostgreSQL"
+            ],
+            "total_required": 3,
+            "total_matched": 2
+          },
+          "cloud_platforms": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 1,
+            "total_matched": 0
+          },
+          "devops_tools": {
+            "score": 0.5,
+            "matches": [
+              "Docker",
+              "Git"
+            ],
+            "total_required": 4,
+            "total_matched": 2
+          },
+          "data_science": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 3,
+            "total_matched": 0
+          },
+          "soft_skills": {
+            "score": 1.0,
+            "matches": [
+              "Leadership"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          }
+        },
+        "total_skill_score": 0.24347826086956526
+      },
+      "experience_analysis": {
+        "resume_years": 0,
+        "meets_year_requirement": false,
+        "technology_matches": [],
+        "score": 0.3
+      },
+      "education_analysis": {
+        "degree_match": false,
+        "field_match": false,
+        "matches": [],
+        "score": 0
+      },
+      "project_analysis": {
+        "score": 0.0,
+        "relevant_projects": [
+          "\"projects\": [],",
+          "\"projects\": [],"
+        ],
+        "skill_mentions": []
+      },
+      "additional_scores": {
+        "skill_diversity": 0.7142857142857143,
+        "experience_quality": 0.0,
+        "education_level": 0.2,
+        "project_relevance": 0.0
+      },
+      "recommendations": [
+        "Consider learning these required skills: API Design, APIs, AWS",
+        "Focus on developing more of the required technical skills",
+        "Gain more relevant work experience in the field",
+        "Consider pursuing relevant educational qualifications"
+      ],
+      "resume_summary": {
+        "total_skills": 26,
+        "top_skills": [
+          "API Development",
+          "Adaptability",
+          "Analytics Dashboard",
+          "Backend Development",
+          "C++"
+        ],
+        "experience_entries": 1,
+        "education_entries": 0,
+        "project_entries": 2,
+        "has_contact_info": true
+      },
+      "rank": 9,
+      "percentile": 33.3
+    },
+    {
+      "file_path": ".\\requirements.txt",
+      "file_name": "requirements.txt",
+      "candidate_name": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "overall_match_score": 13.89,
+      "match_level": "Poor Match",
+      "final_ranking_score": 12.59,
+      "skill_analysis": {
+        "required_score": 0.043478260869565216,
+        "preferred_score": 0,
+        "required_matches": [
+          "Python"
+        ],
+        "preferred_matches": [],
+        "missing_required": [
+          "API Design",
+          "APIs",
+          "AWS",
+          "Agile",
+          "Algorithms",
+          "CI/CD",
+          "Data Structures",
+          "Django",
+          "Docker",
+          "Flask",
+          "Git",
+          "Kubernetes",
+          "Leadership",
+          "Machine Learning",
+          "Microservices",
+          "MongoDB",
+          "Pandas",
+          "PostgreSQL",
+          "SQL",
+          "SaaS",
+          "Scikit-learn",
+          "Scrum"
+        ],
+        "missing_preferred": [],
+        "category_scores": {
+          "programming_languages": {
+            "score": 1.0,
+            "matches": [
+              "Python"
+            ],
+            "total_required": 1,
+            "total_matched": 1
+          },
+          "web_frameworks": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 2,
+            "total_matched": 0
+          },
+          "databases": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 3,
+            "total_matched": 0
+          },
+          "cloud_platforms": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 1,
+            "total_matched": 0
+          },
+          "devops_tools": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 4,
+            "total_matched": 0
+          },
+          "data_science": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 3,
+            "total_matched": 0
+          },
+          "soft_skills": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 1,
+            "total_matched": 0
+          }
+        },
+        "total_skill_score": 0.034782608695652174
+      },
+      "experience_analysis": {
+        "resume_years": 0,
+        "meets_year_requirement": false,
+        "technology_matches": [],
+        "score": 0.3
+      },
+      "education_analysis": {
+        "degree_match": false,
+        "field_match": false,
+        "matches": [],
+        "score": 0
+      },
+      "project_analysis": {
+        "score": 0.5,
+        "relevant_projects": [],
+        "skill_mentions": {}
+      },
+      "additional_scores": {
+        "skill_diversity": 0.14285714285714285,
+        "experience_quality": 0.0,
+        "education_level": 0.2,
+        "project_relevance": 0.3
+      },
+      "recommendations": [
+        "Consider learning these required skills: API Design, APIs, AWS",
+        "Focus on developing more of the required technical skills",
+        "Gain more relevant work experience in the field",
+        "Consider pursuing relevant educational qualifications"
+      ],
+      "resume_summary": {
+        "total_skills": 2,
+        "top_skills": [
+          "Natural Language Processing",
+          "Python"
+        ],
+        "experience_entries": 0,
+        "education_entries": 0,
+        "project_entries": 0,
+        "has_contact_info": false
+      },
+      "rank": 10,
+      "percentile": 25.0
+    },
+    {
+      "file_path": ".\\dummy.docx",
+      "file_name": "dummy.docx",
+      "candidate_name": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "overall_match_score": 12.5,
+      "match_level": "Poor Match",
+      "final_ranking_score": 9.75,
+      "skill_analysis": {
+        "required_score": 0.0,
+        "preferred_score": 0,
+        "required_matches": [],
+        "preferred_matches": [],
+        "missing_required": [
+          "API Design",
+          "APIs",
+          "AWS",
+          "Agile",
+          "Algorithms",
+          "CI/CD",
+          "Data Structures",
+          "Django",
+          "Docker",
+          "Flask",
+          "Git",
+          "Kubernetes",
+          "Leadership",
+          "Machine Learning",
+          "Microservices",
+          "MongoDB",
+          "Pandas",
+          "PostgreSQL",
+          "Python",
+          "SQL",
+          "SaaS",
+          "Scikit-learn",
+          "Scrum"
+        ],
+        "missing_preferred": [],
+        "category_scores": {
+          "programming_languages": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 1,
+            "total_matched": 0
+          },
+          "web_frameworks": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 2,
+            "total_matched": 0
+          },
+          "databases": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 3,
+            "total_matched": 0
+          },
+          "cloud_platforms": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 1,
+            "total_matched": 0
+          },
+          "devops_tools": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 4,
+            "total_matched": 0
+          },
+          "data_science": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 3,
+            "total_matched": 0
+          },
+          "soft_skills": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 1,
+            "total_matched": 0
+          }
+        },
+        "total_skill_score": 0.0
+      },
+      "experience_analysis": {
+        "resume_years": 0,
+        "meets_year_requirement": false,
+        "technology_matches": [],
+        "score": 0.3
+      },
+      "education_analysis": {
+        "degree_match": false,
+        "field_match": false,
+        "matches": [],
+        "score": 0
+      },
+      "project_analysis": {
+        "score": 0.5,
+        "relevant_projects": [],
+        "skill_mentions": {}
+      },
+      "additional_scores": {
+        "skill_diversity": 0.0,
+        "experience_quality": 0.0,
+        "education_level": 0.2,
+        "project_relevance": 0.3
+      },
+      "recommendations": [
+        "Consider learning these required skills: API Design, APIs, AWS",
+        "Focus on developing more of the required technical skills",
+        "Gain more relevant work experience in the field",
+        "Consider pursuing relevant educational qualifications"
+      ],
+      "resume_summary": {
+        "total_skills": 0,
+        "top_skills": [],
+        "experience_entries": 0,
+        "education_entries": 0,
+        "project_entries": 0,
+        "has_contact_info": false
+      },
+      "rank": 11,
+      "percentile": 16.7
+    },
+    {
+      "file_path": ".\\output.txt",
+      "file_name": "output.txt",
+      "candidate_name": null,
+      "email": null,
+      "phone": null,
+      "linkedin": null,
+      "overall_match_score": 12.5,
+      "match_level": "Poor Match",
+      "final_ranking_score": 9.75,
+      "skill_analysis": {
+        "required_score": 0.0,
+        "preferred_score": 0,
+        "required_matches": [],
+        "preferred_matches": [],
+        "missing_required": [
+          "API Design",
+          "APIs",
+          "AWS",
+          "Agile",
+          "Algorithms",
+          "CI/CD",
+          "Data Structures",
+          "Django",
+          "Docker",
+          "Flask",
+          "Git",
+          "Kubernetes",
+          "Leadership",
+          "Machine Learning",
+          "Microservices",
+          "MongoDB",
+          "Pandas",
+          "PostgreSQL",
+          "Python",
+          "SQL",
+          "SaaS",
+          "Scikit-learn",
+          "Scrum"
+        ],
+        "missing_preferred": [],
+        "category_scores": {
+          "programming_languages": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 1,
+            "total_matched": 0
+          },
+          "web_frameworks": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 2,
+            "total_matched": 0
+          },
+          "databases": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 3,
+            "total_matched": 0
+          },
+          "cloud_platforms": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 1,
+            "total_matched": 0
+          },
+          "devops_tools": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 4,
+            "total_matched": 0
+          },
+          "data_science": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 3,
+            "total_matched": 0
+          },
+          "soft_skills": {
+            "score": 0.0,
+            "matches": [],
+            "total_required": 1,
+            "total_matched": 0
+          }
+        },
+        "total_skill_score": 0.0
+      },
+      "experience_analysis": {
+        "resume_years": 0,
+        "meets_year_requirement": false,
+        "technology_matches": [],
+        "score": 0.3
+      },
+      "education_analysis": {
+        "degree_match": false,
+        "field_match": false,
+        "matches": [],
+        "score": 0
+      },
+      "project_analysis": {
+        "score": 0.5,
+        "relevant_projects": [],
+        "skill_mentions": {}
+      },
+      "additional_scores": {
+        "skill_diversity": 0.0,
+        "experience_quality": 0.0,
+        "education_level": 0.2,
+        "project_relevance": 0.3
+      },
+      "recommendations": [
+        "Consider learning these required skills: API Design, APIs, AWS",
+        "Focus on developing more of the required technical skills",
+        "Gain more relevant work experience in the field",
+        "Consider pursuing relevant educational qualifications"
+      ],
+      "resume_summary": {
+        "total_skills": 0,
+        "top_skills": [],
+        "experience_entries": 1,
+        "education_entries": 0,
+        "project_entries": 0,
+        "has_contact_info": false
+      },
+      "rank": 12,
+      "percentile": 8.3
+    }
+  ],
+  "errors": null
+}

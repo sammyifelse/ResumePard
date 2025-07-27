@@ -1,0 +1,125 @@
+{
+  "analysis_type": "job_description",
+  "timestamp": "2025-07-21 19:54:12",
+  "requirements_summary": {
+    "total_required_skills": 16,
+    "total_preferred_skills": 0,
+    "experience_requirements": {
+      "years_required": [
+        {
+          "min_years": 5,
+          "max_years": null,
+          "type": "general"
+        },
+        {
+          "min_years": 3,
+          "max_years": null,
+          "type": "general"
+        },
+        {
+          "min_years": 5,
+          "max_years": null,
+          "type": "general"
+        }
+      ],
+      "technology_experience": [
+        "Machine Learning"
+      ]
+    },
+    "education_requirements": {
+      "degree_requirements": [
+        "Bachelor's degree",
+        "Computer Science"
+      ],
+      "fields_of_study": [
+        "computer science",
+        "engineering"
+      ]
+    }
+  },
+  "detailed_requirements": {
+    "required_skills": [
+      "API Development",
+      "AWS",
+      "Agile",
+      "CI/CD",
+      "Django",
+      "Docker",
+      "Flask",
+      "Git",
+      "Machine Learning",
+      "PostgreSQL",
+      "Python",
+      "SQL",
+      "Scikit-learn",
+      "Scrum",
+      "TensorFlow",
+      "Unit Testing"
+    ],
+    "preferred_skills": [],
+    "experience_requirements": {
+      "years_required": [
+        {
+          "min_years": 5,
+          "max_years": null,
+          "type": "general"
+        },
+        {
+          "min_years": 3,
+          "max_years": null,
+          "type": "general"
+        },
+        {
+          "min_years": 5,
+          "max_years": null,
+          "type": "general"
+        }
+      ],
+      "technology_experience": [
+        "Machine Learning"
+      ]
+    },
+    "education_requirements": {
+      "degree_requirements": [
+        "Bachelor's degree",
+        "Computer Science"
+      ],
+      "fields_of_study": [
+        "computer science",
+        "engineering"
+      ]
+    },
+    "role_requirements": {
+      "job_titles": [],
+      "responsibilities": [
+        "- Design and develop scalable web applications\n- Collaborate with cross-functional teams\n- Mentor junior developers\n- Participate in code reviews and technical discussions\n- Contribute to architectural decisions\nBenefits:\n- Competitive salary ($90,000 - $130,000)\n- Remote work flexibility\n- Health, dental, and vision insurance\n- 401(k) matching\n- Professional development budget"
+      ]
+    },
+    "company_info": {
+      "company_names": [],
+      "locations": []
+    },
+    "all_extracted_skills": [
+      "API Development",
+      "AWS",
+      "Agile",
+      "CI/CD",
+      "Django",
+      "Docker",
+      "Flask",
+      "Git",
+      "Machine Learning",
+      "PostgreSQL",
+      "Python",
+      "SQL",
+      "Scikit-learn",
+      "Scrum",
+      "TensorFlow",
+      "Unit Testing"
+    ]
+  },
+  "insights": [
+    "High number of required skills - consider prioritizing the most critical ones"
+  ],
+  "success": true
+}

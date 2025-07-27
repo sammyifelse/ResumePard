@@ -1,0 +1,305 @@
+{
+  "analysis_type": "single_resume",
+  "resume_file": "resume_sarah_johnson.txt",
+  "candidate_name": "SARAH JOHNSON",
+  "timestamp": "2025-07-21 19:58:33",
+  "match_summary": {
+    "overall_score": 59.17,
+    "match_level": "Moderate Match",
+    "key_strengths": [
+      "Has 13 required skills",
+      "Meets experience requirements",
+      "Has relevant education background"
+    ],
+    "improvement_areas": [
+      "Consider learning these required skills: API Design, Algorithms, Data Structures",
+      "Focus on developing more of the required technical skills"
+    ]
+  },
+  "detailed_analysis": {
+    "overall_score": 59.17,
+    "skill_analysis": {
+      "required_score": 0.5652173913043478,
+      "preferred_score": 0,
+      "required_matches": [
+        "APIs",
+        "AWS",
+        "Agile",
+        "CI/CD",
+        "Django",
+        "Docker",
+        "Flask",
+        "Git",
+        "Kubernetes",
+        "Microservices",
+        "MongoDB",
+        "PostgreSQL",
+        "Python"
+      ],
+      "preferred_matches": [],
+      "missing_required": [
+        "API Design",
+        "Algorithms",
+        "Data Structures",
+        "Leadership",
+        "Machine Learning",
+        "Pandas",
+        "SQL",
+        "SaaS",
+        "Scikit-learn",
+        "Scrum"
+      ],
+      "missing_preferred": [],
+      "category_scores": {
+        "programming_languages": {
+          "score": 1.0,
+          "matches": [
+            "Python"
+          ],
+          "total_required": 1,
+          "total_matched": 1
+        },
+        "web_frameworks": {
+          "score": 1.0,
+          "matches": [
+            "Django",
+            "Flask"
+          ],
+          "total_required": 2,
+          "total_matched": 2
+        },
+        "databases": {
+          "score": 0.6666666666666666,
+          "matches": [
+            "MongoDB",
+            "PostgreSQL"
+          ],
+          "total_required": 3,
+          "total_matched": 2
+        },
+        "cloud_platforms": {
+          "score": 1.0,
+          "matches": [
+            "AWS"
+          ],
+          "total_required": 1,
+          "total_matched": 1
+        },
+        "devops_tools": {
+          "score": 1.0,
+          "matches": [
+            "CI/CD",
+            "Docker",
+            "Git",
+            "Kubernetes"
+          ],
+          "total_required": 4,
+          "total_matched": 4
+        },
+        "data_science": {
+          "score": 0.0,
+          "matches": [],
+          "total_required": 3,
+          "total_matched": 0
+        },
+        "soft_skills": {
+          "score": 0.0,
+          "matches": [],
+          "total_required": 1,
+          "total_matched": 0
+        }
+      },
+      "total_skill_score": 0.45217391304347826
+    },
+    "experience_analysis": {
+      "resume_years": 6,
+      "meets_year_requirement": true,
+      "technology_matches": [],
+      "score": 1.0
+    },
+    "education_analysis": {
+      "degree_match": true,
+      "field_match": true,
+      "matches": [
+        "computer science"
+      ],
+      "score": 1.0
+    },
+    "project_analysis": {
+      "score": 0.6086956521739131,
+      "relevant_projects": [
+        "• Programming Languages: Python, JavaScript, TypeScript, Java, C#• Web Frameworks: Django, Flask, React, Vue.js, Express.js• Databases: PostgreSQL, MySQL, MongoDB, Redis• Cloud Platforms: AWS (EC2, S3, Lambda), Azure, Google Cloud Platform• DevOps: Docker, Kubernetes, Jenkins, CI/CD pipelines• Tools: Git, JIRA, Postman, VS CodePROFESSIONAL",
+        "Senior Software Engineer | TechCorp Inc. | 2021 - Present• Led development of microservices architecture using Python and Django• Built RESTful APIs serving 10M+ requests daily• Implemented automated testing and CI/CD pipelines• Mentored junior developers and conducted code reviews• Optimized database queries resulting in 40% performance improvementSoftware Engineer | StartupXYZ | 2019 - 2021• Developed full-stack web applications using React and Node.js• Designed and implemented PostgreSQL database schemas• Integrated third-party APIs and payment gateways• Collaborated with cross-functional teams in Agile environmentJunior Developer | WebSolutions Ltd. | 2018 - 2019• Built responsive web interfaces using HTML, CSS, and JavaScript• Maintained and updated legacy PHP applications• Participated in daily standups and sprint planningEDUCATION:",
+        "University of California, Berkeley | 2018PROJECTS:",
+        "• E-commerce Platform: Full-stack application with React frontend and Django backend• Data Analytics Dashboard: Real-time dashboard using Python, D3.js, and AWS• API Gateway: Microservices communication layer with authentication and rate limitingCERTIFICATIONS:"
+      ],
+      "skill_mentions": [
+        "APIs",
+        "AWS",
+        "Agile",
+        "CI/CD",
+        "Django",
+        "Docker",
+        "Flask",
+        "Git",
+        "Kubernetes",
+        "Microservices",
+        "MongoDB",
+        "PostgreSQL",
+        "Python",
+        "SQL"
+      ]
+    },
+    "recommendations": [
+      "Consider learning these required skills: API Design, Algorithms, Data Structures",
+      "Focus on developing more of the required technical skills"
+    ],
+    "match_level": "Moderate Match",
+    "resume_data": {
+      "name": "SARAH JOHNSON",
+      "contact_info": {
+        "email": "sarah.johnson@email.com",
+        "phone": "+1-555-987-6543",
+        "linkedin": "linkedin.com/in/sarah-johnson-dev",
+        "github": null,
+        "other_urls": []
+      },
+      "skills": [
+        "APIs",
+        "AWS",
+        "Agile",
+        "Analytics Dashboard",
+        "Azure",
+        "CI/CD",
+        "CSS",
+        "Communication",
+        "DevOps",
+        "Django",
+        "Docker",
+        "Flask",
+        "Git",
+        "HTML",
+        "Java",
+        "JavaScript",
+        "Kubernetes",
+        "Microservices",
+        "MongoDB",
+        "PHP",
+        "PostgreSQL",
+        "Python",
+        "React",
+        "Web Development"
+      ],
+      "education": [
+        "Bachelor of Science in Computer Science",
+        "University of California, Berkeley | 2018PROJECTS:"
+      ],
+      "experience": [
+        "Senior Software Engineer | TechCorp Inc. | 2021 - Present• Led development of microservices architecture using Python and Django• Built RESTful APIs serving 10M+ requests daily• Implemented automated testing and CI/CD pipelines• Mentored junior developers and conducted code reviews• Optimized database queries resulting in 40% performance improvementSoftware Engineer | StartupXYZ | 2019 - 2021• Developed full-stack web applications using React and Node.js• Designed and implemented PostgreSQL database schemas• Integrated third-party APIs and payment gateways• Collaborated with cross-functional teams in Agile environmentJunior Developer | WebSolutions Ltd. | 2018 - 2019• Built responsive web interfaces using HTML, CSS, and JavaScript• Maintained and updated legacy PHP applications• Participated in daily standups and sprint planningEDUCATION:\nBachelor of Science in Computer Science\nUniversity of California, Berkeley | 2018PROJECTS:\n• E-commerce Platform: Full-stack application with React frontend and Django backend• Data Analytics Dashboard: Real-time dashboard using Python, D3.js, and AWS• API Gateway: Microservices communication layer with authentication and rate limitingCERTIFICATIONS:\n• AWS Certified Solutions Architect - Associate (2022)• Certified Kubernetes Administrator (2021)"
+      ],
+      "projects": [
+        "• Programming Languages: Python, JavaScript, TypeScript, Java, C#• Web Frameworks: Django, Flask, React, Vue.js, Express.js• Databases: PostgreSQL, MySQL, MongoDB, Redis• Cloud Platforms: AWS (EC2, S3, Lambda), Azure, Google Cloud Platform• DevOps: Docker, Kubernetes, Jenkins, CI/CD pipelines• Tools: Git, JIRA, Postman, VS CodePROFESSIONAL",
+        "Senior Software Engineer | TechCorp Inc. | 2021 - Present• Led development of microservices architecture using Python and Django• Built RESTful APIs serving 10M+ requests daily• Implemented automated testing and CI/CD pipelines• Mentored junior developers and conducted code reviews• Optimized database queries resulting in 40% performance improvementSoftware Engineer | StartupXYZ | 2019 - 2021• Developed full-stack web applications using React and Node.js• Designed and implemented PostgreSQL database schemas• Integrated third-party APIs and payment gateways• Collaborated with cross-functional teams in Agile environmentJunior Developer | WebSolutions Ltd. | 2018 - 2019• Built responsive web interfaces using HTML, CSS, and JavaScript• Maintained and updated legacy PHP applications• Participated in daily standups and sprint planningEDUCATION:",
+        "University of California, Berkeley | 2018PROJECTS:",
+        "• E-commerce Platform: Full-stack application with React frontend and Django backend• Data Analytics Dashboard: Real-time dashboard using Python, D3.js, and AWS• API Gateway: Microservices communication layer with authentication and rate limitingCERTIFICATIONS:"
+      ],
+      "leadership": []
+    },
+    "jd_data": {
+      "required_skills": [
+        "API Design",
+        "APIs",
+        "AWS",
+        "Agile",
+        "Algorithms",
+        "CI/CD",
+        "Data Structures",
+        "Django",
+        "Docker",
+        "Flask",
+        "Git",
+        "Kubernetes",
+        "Leadership",
+        "Machine Learning",
+        "Microservices",
+        "MongoDB",
+        "Pandas",
+        "PostgreSQL",
+        "Python",
+        "SQL",
+        "SaaS",
+        "Scikit-learn",
+        "Scrum"
+      ],
+      "preferred_skills": [],
+      "experience_requirements": {
+        "years_required": [
+          {
+            "min_years": 5,
+            "max_years": null,
+            "type": "general"
+          },
+          {
+            "min_years": 3,
+            "max_years": null,
+            "type": "general"
+          },
+          {
+            "min_years": 5,
+            "max_years": null,
+            "type": "general"
+          }
+        ],
+        "technology_experience": []
+      },
+      "education_requirements": {
+        "degree_requirements": [
+          "Bachelor's degree",
+          "Computer Science"
+        ],
+        "fields_of_study": [
+          "computer science",
+          "engineering",
+          "business"
+        ]
+      },
+      "role_requirements": {
+        "job_titles": [],
+        "responsibilities": [
+          "- Design and develop robust, scalable Python applications\n- Build and maintain RESTful APIs and microservices\n- Collaborate with frontend developers and data scientists\n- Participate in code reviews and technical architecture discussions\n- Optimize application performance and database queries\n- Mentor junior developers and contribute to team knowledge sharing\n- Work in an Agile environment with 2-week sprintsCOMPANY BENEFITS:\n- Competitive salary with equity options\n- Comprehensive health, dental, and vision insurance\n- 4 weeks PTO + holidays\n- $3,000 annual professional development budget\n- Remote work flexibility\n- Latest MacBook Pro and equipment\n- Flexible working hours (core hours 10 AM - 3 PM PST)ABOUT THE COMPANY:\nTechFlow Solutions is a fast-growing SaaS company specializing in business intelligence\nand data analytics",
+          "be responsible for building scalable backend systems and APIs that power our\ndata analytics platform"
+        ]
+      },
+      "company_info": {
+        "company_names": [],
+        "locations": []
+      },
+      "all_extracted_skills": [
+        "API Design",
+        "APIs",
+        "AWS",
+        "Agile",
+        "Algorithms",
+        "CI/CD",
+        "Data Structures",
+        "Django",
+        "Docker",
+        "Flask",
+        "Git",
+        "Kubernetes",
+        "Leadership",
+        "Machine Learning",
+        "Microservices",
+        "MongoDB",
+        "Pandas",
+        "PostgreSQL",
+        "Python",
+        "SQL",
+        "SaaS",
+        "Scikit-learn",
+        "Scrum"
+      ]
+    }
+  },
+  "success": true
+}

@@ -1,0 +1,45 @@
+{
+  "name": null,
+  "contact_info": {
+    "email": "rajatshubhradkumawat@gmail.com",
+    "phone": "+91 8696 017 817",
+    "linkedin": "linkedin.com/in/nednrajat-kumawat",
+    "github": null,
+    "other_urls": []
+  },
+  "skills": [
+    "APIs",
+    "AWS",
+    "Algorithms",
+    "C++",
+    "Data Structures",
+    "Docker",
+    "GCP",
+    "Git",
+    "Java",
+    "JavaScript",
+    "Leadership",
+    "MongoDB",
+    "Node.js",
+    "Python",
+    "React"
+  ],
+  "education": [
+    "\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\",\n\"Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027\",\n\"\\u2022 Kalinga Institute of Industrial Technology Bhubaneswar, India\"\n\"Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027\",\n\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\""
+  ],
+  "experience": [
+    "\"Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027\",\n\"Bachelor of Technology - Computer Science & Systems Engineering, CGPA: 8/10 Aug 2023 - Expected July 2027\",\n\"Organization & Architecture, DBMS, Operating Systems, AI, ML, Cloud Infrastructure Management Services\\u2022 Rainbow School Jaipur, India\\n\\u25e6Engineered a secure RESTful API using Node.js and Express.js, featuring token-based authentication (JWT)\\n\\u25e6Engineered the service to perform concurrent, asynchronous calls to multiple external REST APIs using\\nDeveloper Tools Git, Docker, AWS, Google Cloud Platform (GCP)\"\n\"Developer Tools Git, Docker, AWS, Google Cloud Platform (GCP)\","
+  ],
+  "projects": [
+    "\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\",",
+    "\"Organization & Architecture, DBMS, Operating Systems, AI, ML, Cloud Infrastructure Management Services\\u2022 Rainbow School Jaipur, India\\n\\u25e6Engineered a secure RESTful API using Node.js and Express.js, featuring token-based authentication (JWT)\\n\\u25e6Engineered the service to perform concurrent, asynchronous calls to multiple external REST APIs using\\nDeveloper Tools Git, Docker, AWS, Google Cloud Platform (GCP)\"",
+    "\"projects\": [",
+    "\"All India Senior School Certificate Examinations 2023Projects:\",",
+    "\"\\u2022 ArtisanConnect: Full-Stack E-commerce Platform : Developed a comprehensive MERN stack application to \\u25e6Designed a responsive user interface with React, leveraging Redux for predictable state management of the \\u25e6Implemented a seller dashboard with Chart.js to provide artisans with data visualizations of their sales \\u25e6Implemented a Redis caching layer to persist recent search results, slashing average response times by an \\u25e6Designed a flexible data access layer offering both a standard RESTful interface and a GraphQL endpoint,\",",
+    "\"Technologies: Python, FastAPI, GraphQL, Redis, Docker, Google Cloud Platform (GCP), REST APIs, GitSkills:\",",
+    "\"Developer Tools Git, Docker, AWS, Google Cloud Platform (GCP)\",",
+    "\"2025.\\u2022 CodeChef 3-Star (1701 Rating); Achieved Global Rank 739 inStarters 190 (Div. 2) , June 2025.\\u2022 AtCoder; Achieved Global Rank 3013 inMirrativ Programming Contest 2025 (ABC 414) , July 2025.\\u2022 Secured 2nd place among 150 participants in Algo Arena , a college coding event.\\u2022 Solved 1000+ problems across platforms like Codeforces, CodeChef, and HackerRank.\\u2022 Actively participated in over 100+ competitive programming contests.\"",
+    "\"projects\": [],"
+  ],
+  "leadership": []
+}
