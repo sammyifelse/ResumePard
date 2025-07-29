@@ -29,9 +29,19 @@ ResumePard is a comprehensive Python-based system for automated resume parsing, 
 - **Detailed Reporting**: Comprehensive analysis reports with recommendations
 
 ### User Interfaces
+- **Streamlit Web Application**: Modern, interactive web interface with real-time processing
 - **Command Line Interface**: Full-featured CLI for batch processing and automation
 - **Python API**: Programmatic access to all system features
 - **JSON Output**: Structured data output for integration with other systems
+
+### Web Application Features
+- **📋 Job Description Analysis**: Upload JD files or paste text for intelligent parsing
+- **📄 Multi-Resume Upload**: Drag-and-drop multiple resume files (PDF, DOCX, TXT)
+- **🏆 Real-time Ranking**: Live candidate scoring and ranking with detailed breakdowns
+- **📊 Interactive Analytics**: Charts, graphs, and visualizations for data insights
+- **💾 Export Capabilities**: Download results in JSON, CSV, and report formats
+- **⚙️ Customizable Scoring**: Adjust weights for skills, experience, education, and projects
+- **🔍 Advanced Filtering**: Filter candidates by score thresholds and other criteria
 
 ## 📋 Requirements
 
@@ -76,11 +86,43 @@ python -m spacy download en_core_web_sm
 ### 4. Verify Installation
 ```bash
 python main_matcher.py --help
+
+# Test web application
+resume_parser_env\Scripts\python.exe -m streamlit run app.py --help
+```
+
+### 5. Quick Start Options
+```bash
+# Option 1: Use convenience script (Windows)
+start_app.bat
+
+# Option 2: Direct Streamlit execution
+resume_parser_env\Scripts\python.exe -m streamlit run app.py
+
+# Option 3: PowerShell script (Windows)
+.\start_app.ps1
 ```
 
 ## 🎯 Quick Start
 
-### Parse a Single Resume
+### Web Application (Easiest Method)
+
+1. **Start the application:**
+   ```bash
+   resume_parser_env\Scripts\python.exe -m streamlit run app.py
+   ```
+
+2. **Open browser:** Navigate to `http://localhost:8501`
+
+3. **Upload Job Description:** Use the "Job Description" tab to paste or upload JD
+
+4. **Upload Resumes:** Use the "Resume Upload" tab to select multiple resume files
+
+5. **View Rankings:** Click "Start Ranking" to see intelligent candidate matching
+
+### Programmatic Usage
+
+#### Parse a Single Resume
 ```python
 from info_extractor import parse_resume
 
@@ -89,7 +131,7 @@ resume_data = parse_resume("path/to/resume.pdf")
 print(resume_data)
 ```
 
-### Analyze Job Description
+#### Analyze Job Description
 ```python
 from jd_processor import parse_job_description
 
@@ -114,27 +156,189 @@ results = rank_candidates_for_job("resumes_folder/", "job_description.txt", "out
 print(f"Top candidate: {results['candidates'][0]['candidate_name']}")
 ```
 
+## � Running the Project
+
+### Prerequisites Check
+Before running ResumePard, ensure you have:
+1. **Python 3.9+** installed and accessible from command line
+2. **Virtual environment** activated (`resume_parser_env`)
+3. **Required dependencies** installed via `pip install -r requirements.txt`
+4. **spaCy language model** downloaded: `python -m spacy download en_core_web_sm`
+
+### Method 1: Streamlit Web Application (Recommended)
+
+The easiest way to use ResumePard is through the web interface:
+
+#### Step 1: Navigate to Project Directory
+```cmd
+cd "d:\opensource\respard\ResumePard"
+```
+
+#### Step 2: Activate Virtual Environment
+```cmd
+# Windows Command Prompt
+resume_parser_env\Scripts\activate
+
+# Windows PowerShell
+resume_parser_env\Scripts\Activate.ps1
+
+# Linux/macOS
+source resume_parser_env/bin/activate
+```
+
+#### Step 3: Run Streamlit Application
+```cmd
+# Using Python executable from virtual environment
+resume_parser_env\Scripts\python.exe -m streamlit run app.py
+
+# Alternative method (if streamlit is in PATH)
+streamlit run app.py
+
+# With specific port (optional)
+resume_parser_env\Scripts\python.exe -m streamlit run app.py --server.port 8501
+```
+
+#### Step 4: Access Web Interface
+1. Open your web browser
+2. Navigate to: `http://localhost:8501`
+3. The ResumePard web interface will load automatically
+
+#### Using Convenience Scripts
+For easier startup, use the provided scripts:
+
+**Windows Batch File:**
+```cmd
+start_app.bat
+```
+
+**Windows PowerShell:**
+```powershell
+.\start_app.ps1
+```
+
+### Method 2: Command Line Interface
+
+For programmatic access and batch processing:
+
+#### Basic Resume Analysis
+```bash
+# Activate environment first
+resume_parser_env\Scripts\python.exe main_matcher.py analyze resume.pdf "job_description.txt" --save
+```
+
+#### Rank Multiple Candidates
+```bash
+resume_parser_env\Scripts\python.exe main_matcher.py rank resumes_folder/ job_description.txt --output results/ --min-score 60
+```
+
+#### Batch Process Resumes
+```bash
+resume_parser_env\Scripts\python.exe main_matcher.py batch resumes_folder/ --output batch_results/
+```
+
+#### Analyze Job Description
+```bash
+resume_parser_env\Scripts\python.exe main_matcher.py analyze-jd job_description.txt --save
+```
+
+### Method 3: Direct Python Script Execution
+
+#### Individual Module Testing
+```python
+# Test resume parsing
+resume_parser_env\Scripts\python.exe -c "
+from info_extractor import parse_resume
+result = parse_resume('path/to/resume.pdf')
+print(result)
+"
+
+# Test job description analysis
+resume_parser_env\Scripts\python.exe -c "
+from jd_processor import parse_job_description
+result = parse_job_description('Job description text here...')
+print(result)
+"
+```
+
+### Troubleshooting Startup Issues
+
+#### Issue 1: Module Not Found Error
+```bash
+# Ensure you're in the correct directory
+cd "d:\opensource\respard\ResumePard"
+
+# Verify virtual environment is activated
+where python  # Should point to resume_parser_env\Scripts\python.exe
+```
+
+#### Issue 2: Port Already in Use
+```bash
+# Use different port
+resume_parser_env\Scripts\python.exe -m streamlit run app.py --server.port 8502
+
+# Or kill existing process
+netstat -ano | findstr :8501
+taskkill /PID <process_id> /F
+```
+
+#### Issue 3: spaCy Model Missing
+```bash
+# Download required language model
+resume_parser_env\Scripts\python.exe -m spacy download en_core_web_sm
+
+# Verify installation
+resume_parser_env\Scripts\python.exe -c "import spacy; nlp = spacy.load('en_core_web_sm'); print('spaCy model loaded successfully')"
+```
+
+### Environment Verification Script
+
+Create and run this verification script to ensure everything is working:
+
+```python
+# save as verify_setup.py
+import sys
+import importlib
+
+def verify_setup():
+    print("🔍 ResumePard Setup Verification")
+    print("=" * 40)
+    
+    # Check Python version
+    print(f"✅ Python Version: {sys.version}")
+    
+    # Check required modules
+    required_modules = [
+        'streamlit', 'spacy', 'PyPDF2', 'docx', 
+        'pandas', 'plotly', 'numpy'
+    ]
+    
+    for module in required_modules:
+        try:
+            importlib.import_module(module.replace('PyPDF2', 'PyPDF2').replace('docx', 'docx'))
+            print(f"✅ {module}: Installed")
+        except ImportError:
+            print(f"❌ {module}: Missing")
+    
+    # Check spaCy model
+    try:
+        import spacy
+        nlp = spacy.load('en_core_web_sm')
+        print("✅ spaCy en_core_web_sm: Loaded")
+    except Exception as e:
+        print(f"❌ spaCy model: {e}")
+    
+    print("\n🚀 If all items show ✅, you're ready to run ResumePard!")
+
+if __name__ == "__main__":
+    verify_setup()
+```
+
+Run verification:
+```bash
+resume_parser_env\Scripts\python.exe verify_setup.py
+```
+
 ## 💻 Command Line Usage
-
-### Analyze Single Resume
-```bash
-python main_matcher.py analyze resume.pdf "job_description.txt" --save
-```
-
-### Rank Multiple Candidates
-```bash
-python main_matcher.py rank resumes_folder/ job_description.txt --output results/ --min-score 60
-```
-
-### Batch Process Resumes
-```bash
-python main_matcher.py batch resumes_folder/ --output batch_results/
-```
-
-### Analyze Job Description
-```bash
-python main_matcher.py analyze-jd job_description.txt --save
-```
 
 ## 📊 Output Examples
 
@@ -246,27 +450,139 @@ def __init__(self):
 
 ## 🔧 Troubleshooting
 
-### Common Issues
+### Common Startup Issues
 
 #### 1. spaCy Model Not Found
 ```bash
+# Download the required model
 python -m spacy download en_core_web_sm
+
+# Or from virtual environment
+resume_parser_env\Scripts\python.exe -m spacy download en_core_web_sm
+
+# Verify installation
+resume_parser_env\Scripts\python.exe -c "import spacy; nlp = spacy.load('en_core_web_sm'); print('Model loaded successfully')"
 ```
 
-#### 2. PDF Parsing Errors
+#### 2. Virtual Environment Issues
+```bash
+# Ensure virtual environment is activated
+# You should see (resume_parser_env) in your command prompt
+
+# Reactivate if needed
+resume_parser_env\Scripts\activate
+
+# Verify Python path
+where python  # Should point to resume_parser_env\Scripts\python.exe
+```
+
+#### 3. Streamlit Port Conflicts
+```bash
+# Check if port 8501 is in use
+netstat -ano | findstr :8501
+
+# Use different port
+resume_parser_env\Scripts\python.exe -m streamlit run app.py --server.port 8502
+
+# Kill existing process (Windows)
+taskkill /PID <process_id> /F
+```
+
+#### 4. Module Import Errors
+```bash
+# Reinstall requirements
+resume_parser_env\Scripts\pip.exe install -r requirements.txt --force-reinstall
+
+# Check specific module
+resume_parser_env\Scripts\python.exe -c "import streamlit; print('Streamlit version:', streamlit.__version__)"
+```
+
+### Runtime Issues
+
+#### 1. PDF Parsing Errors
 - Ensure PDF is not password-protected
 - Check file is not corrupted
 - Try converting to text format first
+- Use files smaller than 50MB for optimal performance
 
-#### 3. Regex Pattern Issues
-- Update phone number patterns for different countries
-- Customize email regex for domain-specific emails
-- Adjust LinkedIn URL patterns as needed
-
-#### 4. Memory Issues with Large Files
-- Split large batches into smaller chunks
-- Use text extraction only mode for initial processing
+#### 2. Memory Issues with Large Files
+- Split large batches into smaller chunks (max 20 resumes at once)
+- Close browser tabs when not needed
+- Restart application periodically for large datasets
 - Increase system memory or use cloud processing
+
+#### 3. Slow Processing
+- Use smaller batch sizes (5-10 resumes recommended)
+- Close unnecessary applications
+- Ensure adequate disk space (minimum 1GB free)
+- Check antivirus software interference
+
+#### 4. Web Interface Issues
+```bash
+# Clear Streamlit cache
+resume_parser_env\Scripts\python.exe -c "import streamlit as st; st.cache_data.clear()"
+
+# Force reload browser (Ctrl+F5)
+# Check browser console for JavaScript errors
+# Try different browser (Chrome, Firefox, Edge)
+```
+
+### Environment Diagnostics
+
+#### Quick System Check
+```bash
+# Run from project directory
+resume_parser_env\Scripts\python.exe -c "
+import sys
+print('Python:', sys.version)
+print('Platform:', sys.platform)
+
+try:
+    import streamlit
+    print('Streamlit: ✅', streamlit.__version__)
+except:
+    print('Streamlit: ❌')
+
+try:
+    import spacy
+    nlp = spacy.load('en_core_web_sm')
+    print('spaCy Model: ✅')
+except:
+    print('spaCy Model: ❌')
+
+print('Current directory:', sys.path[0])
+"
+```
+
+#### File Permission Issues
+```bash
+# Windows: Run as administrator if needed
+# Ensure write permissions in project directory
+# Check antivirus real-time protection settings
+```
+
+### Performance Optimization Tips
+
+#### For Large Datasets
+1. **Process in Batches**: Upload 5-10 resumes at a time
+2. **Use Filtering**: Set minimum score thresholds to reduce processing
+3. **Close Unused Tabs**: Keep only the application tab open
+4. **Restart Periodically**: Restart the application after processing 50+ resumes
+
+#### Memory Management
+- Monitor task manager for memory usage
+- Clear browser cache regularly
+- Use incognito/private browsing mode
+- Ensure adequate swap/virtual memory
+
+### Getting Help
+
+If issues persist:
+1. **Check Error Messages**: Look for specific error details in terminal
+2. **Browser Console**: Press F12 to check for JavaScript errors
+3. **Log Files**: Check Streamlit logs in terminal output
+4. **System Resources**: Monitor CPU, memory, and disk usage
+5. **File Formats**: Ensure resume files are in supported formats (PDF, DOCX, TXT)
 
 ## 🤝 Contributing
 

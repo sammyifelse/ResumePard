@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="D:\ResumePard\resume_parser_env"
+VIRTUAL_ENV="D:\opensource\respard\ResumePard\resume_parser_env"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
