@@ -656,6 +656,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-**Made with ❤️ by the ResumePard Team**
+**Made with ❤️ **
 
 *Revolutionizing recruitment through intelligent automation*
