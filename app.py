@@ -199,7 +199,10 @@ def display_jd_analysis(jd_data):
         st.error("Failed to process job description")
         return
     
-    data = jd_data['data']
+    data = jd_data.get('data')
+    if not data:
+        st.error("Job description data is missing")
+        return
     
     col1, col2, col3, col4 = st.columns(4)
     
@@ -208,11 +211,12 @@ def display_jd_analysis(jd_data):
     with col2:
         st.metric("Preferred Skills", len(data.get('preferred_skills', [])))
     with col3:
-        exp_reqs = data.get('experience_requirements', {}).get('years_required', [])
+        exp_reqs = safe_get(data, 'experience_requirements', 'years_required', default=[])
         min_years = min([req.get('min_years', 0) for req in exp_reqs]) if exp_reqs else 0
         st.metric("Min Experience", f"{min_years} years")
     with col4:
-        st.metric("Priority Level", data.get('priority_requirements', {}).get('high', 0))
+        priority_high = safe_get(data, 'priority_requirements', 'high', default=0)
+        st.metric("Priority Level", priority_high)
     
     # Display skills in expandable sections
     with st.expander("📋 Required Skills", expanded=True):
@@ -228,18 +232,21 @@ def display_jd_analysis(jd_data):
             st.info("No preferred skills identified")
     
     with st.expander("🎓 Education & Experience Requirements"):
-        edu_reqs = data.get('education_requirements', {})
-        if edu_reqs.get('degree_requirements'):
-            st.write("**Education:** " + ", ".join(edu_reqs['degree_requirements']))
+        edu_reqs = data.get('education_requirements') or {}
+        degree_reqs = edu_reqs.get('degree_requirements') if isinstance(edu_reqs, dict) else None
+        if degree_reqs:
+            st.write("**Education:** " + ", ".join(degree_reqs))
         
-        exp_reqs = data.get('experience_requirements', {})
-        if exp_reqs.get('years_required'):
+        exp_reqs = data.get('experience_requirements') or {}
+        years_required = exp_reqs.get('years_required') if isinstance(exp_reqs, dict) else None
+        if years_required and isinstance(years_required, list):
             st.write("**Experience Requirements:**")
-            for req in exp_reqs['years_required']:
-                min_years = req.get('min_years', 0)
-                max_years = req.get('max_years', 'N/A')
-                req_type = req.get('type', 'general')
-                st.write(f"- {req_type.title()}: {min_years}-{max_years} years")
+            for req in years_required:
+                if req and isinstance(req, dict):
+                    min_years = req.get('min_years', 0)
+                    max_years = req.get('max_years', 'N/A')
+                    req_type = req.get('type', 'general')
+                    st.write(f"- {req_type.title()}: {min_years}-{max_years} years")
 
 def display_candidate_card(candidate, rank):
     """Display individual candidate card with styling based on match level."""
@@ -744,28 +751,41 @@ def main():
                             progress_bar = st.progress(0)
                             status_text = st.empty()
                             
-                            # Get JD data
-                            jd_data = st.session_state.processed_jd['data']
+                            # Get JD data - use safe access
+                            jd_data = st.session_state.processed_jd.get('data')
+                            if not jd_data:
+                                st.error("❌ Job description data is missing. Please re-analyze the job description.")
+                                return
                             
                             status_text.text("📋 Preparing job description...")
                             
                             # Create JD text from structured data
                             jd_text_parts = []
                             jd_text_parts.append("REQUIRED SKILLS:")
-                            if jd_data.get('required_skills'):
-                                for skill in jd_data['required_skills']:
+                            required_skills = jd_data.get('required_skills', [])
+                            if required_skills and isinstance(required_skills, list):
+                                for skill in required_skills:
+                                    # Convert tuples to strings
+                                    if isinstance(skill, tuple):
+                                        skill = ' '.join(str(s) for s in skill if s)
                                     jd_text_parts.append(f"- {skill}")
                             
                             jd_text_parts.append("\nPREFERRED SKILLS:")
-                            if jd_data.get('preferred_skills'):
-                                for skill in jd_data['preferred_skills']:
+                            preferred_skills = jd_data.get('preferred_skills', [])
+                            if preferred_skills and isinstance(preferred_skills, list):
+                                for skill in preferred_skills:
+                                    # Convert tuples to strings
+                                    if isinstance(skill, tuple):
+                                        skill = ' '.join(str(s) for s in skill if s)
                                     jd_text_parts.append(f"- {skill}")
                             
                             jd_text_parts.append("\nEXPERIENCE REQUIREMENTS:")
-                            exp_reqs = jd_data.get('experience_requirements', {}).get('years_required', [])
-                            for req in exp_reqs:
-                                min_years = req.get('min_years', 0)
-                                jd_text_parts.append(f"- Minimum {min_years} years experience")
+                            exp_reqs = safe_get(jd_data, 'experience_requirements', 'years_required', default=[])
+                            if exp_reqs and isinstance(exp_reqs, list):
+                                for req in exp_reqs:
+                                    if req and isinstance(req, dict):
+                                        min_years = req.get('min_years', 0)
+                                        jd_text_parts.append(f"- Minimum {min_years} years experience")
                             
                             jd_text = "\n".join(jd_text_parts)
                             
@@ -789,11 +809,17 @@ def main():
                                     try:
                                         match_result = match_resume_to_jd(temp_resume_path, jd_text)
                                         
-                                        if match_result.get('success'):
-                                            candidate_data = match_result['match_result']
-                                            final_score = candidate_data.get('overall_score', 0)
-                                            match_level = candidate_data.get('match_level', 'Poor Match')
-                                            detailed_analysis = candidate_data
+                                        if match_result and match_result.get('success'):
+                                            candidate_data = match_result.get('match_result', {})
+                                            if candidate_data:
+                                                final_score = candidate_data.get('overall_score', 0)
+                                                match_level = candidate_data.get('match_level', 'Poor Match')
+                                                detailed_analysis = candidate_data
+                                            else:
+                                                # Create basic scoring if match_result is None
+                                                final_score = _calculate_basic_score(resume_data, jd_data)
+                                                match_level = _get_match_level(final_score)
+                                                detailed_analysis = _create_basic_analysis(resume_data, jd_data, final_score)
                                         else:
                                             # Create basic scoring if matching fails
                                             final_score = _calculate_basic_score(resume_data, jd_data)
@@ -933,18 +959,22 @@ def main():
                     
                     with col1:
                         if st.button("💾 Download Ranking Results"):
-                            results_json = json.dumps(results, indent=2)
-                            st.download_button(
-                                label="📥 Download JSON Results",
-                                data=results_json,
-                                file_name=f"ranking_results_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json",
-                                mime="application/json"
-                            )
+                            try:
+                                results_json = json.dumps(results, indent=2)
+                                st.download_button(
+                                    label="📥 Download JSON Results",
+                                    data=results_json,
+                                    file_name=f"ranking_results_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json",
+                                    mime="application/json"
+                                )
+                            except Exception as e:
+                                st.error(f"Unable to download results. Please try re-ranking.")
                     
                     with col2:
                         if st.button("📊 Generate Report"):
-                            # Create a summary report
-                            report = f"""
+                            try:
+                                # Create a summary report
+                                report = f"""
 # Candidate Ranking Report
 Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 
@@ -956,21 +986,23 @@ Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
 
 ## Top Candidates
 """
-                            for i, candidate in enumerate(display_candidates[:5], 1):
-                                report += f"""
+                                for i, candidate in enumerate(display_candidates[:5], 1):
+                                    report += f"""
 {i}. **{candidate.get('candidate_name', 'Unknown')}**
    - Score: {candidate.get('final_ranking_score', 0):.1f}%
    - Match Level: {candidate.get('match_level', 'Unknown')}
    - Email: {candidate.get('email', 'Not provided')}
    - File: {candidate.get('file_name', 'Unknown')}
 """
-                            
-                            st.download_button(
-                                label="📄 Download Report (Markdown)",
-                                data=report,
-                                file_name=f"ranking_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md",
-                                mime="text/markdown"
-                            )
+                                
+                                st.download_button(
+                                    label="📄 Download Report (Markdown)",
+                                    data=report,
+                                    file_name=f"ranking_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md",
+                                    mime="text/markdown"
+                                )
+                            except Exception as e:
+                                st.error(f"Unable to generate report. Please try re-ranking.")
                 
                 else:
                     st.warning("⚠️ No candidates found meeting the criteria")
@@ -987,97 +1019,105 @@ Generated on: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}
     with tab4:
         st.header("4️⃣ Analytics & Insights")
         
-        if st.session_state.ranking_results and st.session_state.ranking_results.get('success'):
-            create_ranking_visualizations(st.session_state.ranking_results)
-            
-            # Additional analytics
-            st.subheader("📈 Advanced Analytics")
-            
-            results = st.session_state.ranking_results
-            candidates = results.get('candidates', [])
-            
-            if candidates:
-                # Skills frequency analysis
-                all_skills = []
-                for candidate in candidates:
-                    # Safe navigation with proper null checks - use direct skill_analysis field
-                    skill_analysis = candidate.get('skill_analysis', {})
-                    if skill_analysis and isinstance(skill_analysis, dict):
-                        required_matches = skill_analysis.get('required_matches', [])
-                        if isinstance(required_matches, list):
-                            all_skills.extend(required_matches)
+        try:
+            if st.session_state.ranking_results and st.session_state.ranking_results.get('success'):
+                create_ranking_visualizations(st.session_state.ranking_results)
                 
-                if all_skills:
-                    skills_df = pd.DataFrame({'Skill': all_skills})
-                    skills_count = skills_df['Skill'].value_counts().head(15)
+                # Additional analytics
+                st.subheader("📈 Advanced Analytics")
+                
+                results = st.session_state.ranking_results
+                candidates = results.get('candidates', [])
+                
+                if candidates:
+                    # Skills frequency analysis
+                    all_skills = []
+                    for candidate in candidates:
+                        # Safe navigation with proper null checks - use direct skill_analysis field
+                        skill_analysis = candidate.get('skill_analysis', {})
+                        if skill_analysis and isinstance(skill_analysis, dict):
+                            required_matches = skill_analysis.get('required_matches', [])
+                            if isinstance(required_matches, list):
+                                all_skills.extend(required_matches)
                     
-                    col1, col2 = st.columns(2)
-                    
-                    with col1:
-                        fig_skills_freq = px.bar(
-                            x=skills_count.values,
-                            y=skills_count.index,
-                            orientation='h',
-                            title="🔧 Most Common Skills in Pool",
-                            labels={'x': 'Number of Candidates', 'y': 'Skills'}
-                        )
-                        st.plotly_chart(fig_skills_freq, use_container_width=True)
-                    
-                    with col2:
-                        # Experience vs Score correlation
-                        exp_scores = []
-                        for candidate in candidates:
-                            # Safe experience count calculation - use resume_summary
-                            exp_count = 0
-                            resume_summary = candidate.get('resume_summary', {})
-                            if resume_summary and isinstance(resume_summary, dict):
-                                exp_count = resume_summary.get('experience_entries', 0)
-                            
-                            score = candidate.get('final_ranking_score', 0)
-                            exp_scores.append({'Experience_Count': exp_count, 'Score': score})
+                    if all_skills:
+                        skills_df = pd.DataFrame({'Skill': all_skills})
+                        skills_count = skills_df['Skill'].value_counts().head(15)
                         
-                        if exp_scores:
-                            exp_df = pd.DataFrame(exp_scores)
-                            fig_exp = px.scatter(
-                                exp_df,
-                                x='Experience_Count',
-                                y='Score',
-                                title="💼 Experience vs Score",
-                                labels={'Experience_Count': 'Number of Experience Entries', 'Score': 'Match Score (%)'}
+                        col1, col2 = st.columns(2)
+                        
+                        with col1:
+                            fig_skills_freq = px.bar(
+                                x=skills_count.values,
+                                y=skills_count.index,
+                                orientation='h',
+                                title="🔧 Most Common Skills in Pool",
+                                labels={'x': 'Number of Candidates', 'y': 'Skills'}
                             )
-                            st.plotly_chart(fig_exp, use_container_width=True)
-                else:
-                    st.info("📊 No skill data available for analysis")
-                
-                # Export analytics data
-                if st.button("📊 Export Analytics Data"):
-                    analytics_data = {
-                        'timestamp': datetime.now().isoformat(),
-                        'summary': {
-                            'total_candidates': len(candidates),
-                            'average_score': sum(c.get('final_ranking_score', 0) for c in candidates) / len(candidates),
-                            'score_distribution': {
-                                'excellent': len([c for c in candidates if c.get('match_level') == 'Excellent Match']),
-                                'good': len([c for c in candidates if c.get('match_level') == 'Good Match']),
-                                'moderate': len([c for c in candidates if c.get('match_level') == 'Moderate Match']),
-                                'fair': len([c for c in candidates if c.get('match_level') == 'Fair Match']),
-                                'poor': len([c for c in candidates if c.get('match_level') == 'Poor Match'])
-                            }
-                        },
-                        'skills_analysis': skills_count.to_dict() if 'skills_count' in locals() else {},
-                        'candidates': candidates
-                    }
+                            st.plotly_chart(fig_skills_freq, use_container_width=True)
+                        
+                        with col2:
+                            # Experience vs Score correlation
+                            exp_scores = []
+                            for candidate in candidates:
+                                # Safe experience count calculation - use resume_summary
+                                exp_count = 0
+                                resume_summary = candidate.get('resume_summary', {})
+                                if resume_summary and isinstance(resume_summary, dict):
+                                    exp_count = resume_summary.get('experience_entries', 0)
+                                
+                                score = candidate.get('final_ranking_score', 0)
+                                exp_scores.append({'Experience_Count': exp_count, 'Score': score})
+                            
+                            if exp_scores:
+                                exp_df = pd.DataFrame(exp_scores)
+                                fig_exp = px.scatter(
+                                    exp_df,
+                                    x='Experience_Count',
+                                    y='Score',
+                                    title="💼 Experience vs Score",
+                                    labels={'Experience_Count': 'Number of Experience Entries', 'Score': 'Match Score (%)'}
+                                )
+                                st.plotly_chart(fig_exp, use_container_width=True)
+                    else:
+                        st.info("📊 No skill data available for analysis")
                     
-                    analytics_json = json.dumps(analytics_data, indent=2)
-                    st.download_button(
-                        label="📥 Download Analytics (JSON)",
-                        data=analytics_json,
-                        file_name=f"analytics_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json",
-                        mime="application/json"
-                    )
+                    # Export analytics data
+                    if st.button("📊 Export Analytics Data"):
+                        analytics_data = {
+                            'timestamp': datetime.now().isoformat(),
+                            'summary': {
+                                'total_candidates': len(candidates),
+                                'average_score': sum(c.get('final_ranking_score', 0) for c in candidates) / len(candidates) if candidates else 0,
+                                'score_distribution': {
+                                    'excellent': len([c for c in candidates if c.get('match_level') == 'Excellent Match']),
+                                    'good': len([c for c in candidates if c.get('match_level') == 'Good Match']),
+                                    'moderate': len([c for c in candidates if c.get('match_level') == 'Moderate Match']),
+                                    'fair': len([c for c in candidates if c.get('match_level') == 'Fair Match']),
+                                    'poor': len([c for c in candidates if c.get('match_level') == 'Poor Match'])
+                                }
+                            },
+                            'skills_analysis': skills_count.to_dict() if 'skills_count' in locals() else {},
+                            'candidates': candidates
+                        }
+                        
+                        analytics_json = json.dumps(analytics_data, indent=2)
+                        st.download_button(
+                            label="📥 Download Analytics (JSON)",
+                            data=analytics_json,
+                            file_name=f"analytics_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json",
+                            mime="application/json"
+                        )
+                else:
+                    st.info("📊 No candidates available for analytics")
+            
+            else:
+                st.info("📊 Complete the ranking process to view analytics")
         
-        else:
-            st.info("📊 Complete the ranking process to view analytics")
+        except Exception as e:
+            st.error("Unable to load analytics. Please try re-ranking candidates.")
+            # Optionally log the error for debugging
+            # st.code(str(e))
     
     # Footer
     st.markdown("---")

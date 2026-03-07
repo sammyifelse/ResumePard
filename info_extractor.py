@@ -1,16 +1,26 @@
-import spacy
+try:
+    import spacy
+    SPACY_AVAILABLE = True
+except ImportError:
+    SPACY_AVAILABLE = False
+    spacy = None
+    
 import re
 import os
 import json
 from text_extractor import extract_text # Assuming text_extractor.py is in the same directory
 
 # Load the pre-trained spaCy model
-try:
-    nlp = spacy.load("en_core_web_sm")
-except OSError:
-    print("Downloading en_core_web_sm model...")
-    spacy.cli.download("en_core_web_sm")
-    nlp = spacy.load("en_core_web_sm")
+if SPACY_AVAILABLE:
+    try:
+        nlp = spacy.load("en_core_web_sm")
+    except OSError:
+        print("Downloading en_core_web_sm model...")
+        spacy.cli.download("en_core_web_sm")
+        nlp = spacy.load("en_core_web_sm")
+else:
+    nlp = None
+    print("WARNING: spaCy not available. Resume parsing will be limited.")
 
 # Expanded the all_possible_skills list to include skills from your resume
 all_possible_skills = [
@@ -197,31 +207,32 @@ def extract_skills(text, skills_list=None):
     """
     Extracts skills from text using multiple methods for better accuracy.
     """
-    doc = nlp(text.lower())
     extracted_skills = set()
 
     # Use the provided skills list or default
     if not skills_list:
         skills_list = all_possible_skills
 
-    # Method 1: PhraseMatcher for exact matches
-    from spacy.matcher import PhraseMatcher
-    matcher = PhraseMatcher(nlp.vocab)
-    
-    # Create patterns from the skills list
-    patterns = [nlp.make_doc(skill.lower()) for skill in skills_list]
-    matcher.add("SKILLS", patterns)
+    # Method 1: PhraseMatcher for exact matches (only if spaCy available)
+    if SPACY_AVAILABLE and nlp is not None:
+        doc = nlp(text.lower())
+        from spacy.matcher import PhraseMatcher
+        matcher = PhraseMatcher(nlp.vocab)
+        
+        # Create patterns from the skills list
+        patterns = [nlp.make_doc(skill.lower()) for skill in skills_list]
+        matcher.add("SKILLS", patterns)
 
-    matches = matcher(doc)
-    for match_id, start, end in matches:
-        span = doc[start:end]
-        # Add the original capitalized skill from the list
-        for original_skill in skills_list:
-            if original_skill.lower() == span.text:
-                extracted_skills.add(original_skill)
-                break
+        matches = matcher(doc)
+        for match_id, start, end in matches:
+            span = doc[start:end]
+            # Add the original capitalized skill from the list
+            for original_skill in skills_list:
+                if original_skill.lower() == span.text:
+                    extracted_skills.add(original_skill)
+                    break
     
-    # Method 2: Fuzzy matching for partial matches
+    # Method 2: Fuzzy matching for partial matches (works without spaCy)
     text_lower = text.lower()
     for skill in skills_list:
         skill_lower = skill.lower()
@@ -396,7 +407,12 @@ def parse_resume(file_path):
                 
     # --- Normalize Text for other extractions ---
     normalized_text = normalize_text(text)
-    doc = nlp(normalized_text)
+    
+    # Only use spaCy if available
+    if SPACY_AVAILABLE and nlp is not None:
+        doc = nlp(normalized_text)
+    else:
+        doc = None
 
     # --- Major Section Keywords ---
     major_section_keywords = [
@@ -408,7 +424,7 @@ def parse_resume(file_path):
     ]
 
     # --- Fallback Name Extraction using spaCy on normalized text (if not found initially) ---
-    if not name:
+    if not name and SPACY_AVAILABLE and nlp is not None:
         # Search for PERSON entities in the first few lines of the normalized text
         potential_name_area_normalized = " ".join([line.strip() for line in normalized_text.split('\n') if line.strip()][:5]) # Increased lines to check
         doc_name_area = nlp(potential_name_area_normalized)
